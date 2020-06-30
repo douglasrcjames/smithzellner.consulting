@@ -19,8 +19,7 @@ export default class Footer extends Component {
                     {' '}
                     {this.state.year}
                     {' '}
-                    {/* TODO: update name */}
-                    Doug's React Boiler
+                    Zellner Consulting
                 </div>
             </footer>
         )

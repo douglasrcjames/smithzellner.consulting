@@ -24,12 +24,16 @@
     padding: 10px 0px 10px 5px;
 }
 
-
 .border-green {
     border: 5px solid #33CC00;
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
+}
+
+.event-border {
+    border: 1px solid white;
+    padding: 50px 25px 50px 25px;
 }
 
 /* 
@@ -260,6 +264,70 @@ hr {
 .content-none { 
     content: none;
 }
+
+
+/* Hero */
+.hero-container-large {
+    height: 60vh;
+    max-width: 100%;
+}
+
+.hero-container-small {
+    height: 40vh;
+    max-width: 100%;
+}
+
+.hero-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/zellnerconsulting.appspot.com/o/media%2FBobZellner1.jpg?alt=media&token=dbe3b41b-57af-4b08-b101-93ba9fd16c6b");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/zellnerconsulting.appspot.com/o/media%2FDL_1963FormanZellners.jpg?alt=media&token=e98e8749-a721-444a-9f6b-6c7d84cc38db");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 12px 30px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+  @media screen and (max-width: 900px) {
+   .hero-text {
+    width: 85%;
+   }
+}
+
+
 
 
 

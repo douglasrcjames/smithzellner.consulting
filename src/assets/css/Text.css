@@ -38,54 +38,38 @@ Grey: #A1A1A1
 Dark: #6B6B6B
 Light: #D6D6D6
 
-
-// TODO: update font and declarations around app
-
-Font: CormorantGaramond & PinyonScript
+Font: Crimson Text
 
 */
 /*//*//*//*//*//*//*//*/
 
-/* @font-face {
-    font-family: "CormorantGaramond-Light";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+@font-face {
+    font-family: "CrimsonText-Regular";
+    src: url(../fonts/Crimson_Text/CrimsonText-Regular.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Regular";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+    font-family: "CrimsonText-SemiBold";
+    src: url(../fonts/Crimson_Text/CrimsonText-SemiBold.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-Medium";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf);
+    font-family: "CrimsonText-Italic";
+    src: url(../fonts/Crimson_Text/CrimsonText-Italic.ttf);
 }
 @font-face {
-    font-family: "CormorantGaramond-SemiBold";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf);
-}
-@font-face {
-    font-family: "CormorantGaramond-Italic";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf);
-}
-@font-face {
-    font-family: "CormorantGaramond-Bold";
-    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+    font-family: "CrimsonText-Bold";
+    src: url(../fonts/Crimson_Text/CrimsonText-Bold.ttf);
 }
 
-@font-face {
-    font-family: "PinyonScript-Regular";
-    src: url(../fonts/Pinyon_Script/PinyonScript-Regular.ttf);
-} */
-
-.cormorant-garamond-regular {
-    font-family: "CormorantGaramond-Regular" !important;
+.crimson-text-regular {
+    font-family: "CrimsonText-Regular" !important;
 }
 
-.cormorant-garamond-medium {
-    font-family: "CormorantGaramond-Medium" !important;
+.crimson-text-semi-bold {
+    font-family: "CrimsonText-SemiBold" !important;
 }
 
-.cormorant-garamond-bold {
-    font-family: "CormorantGaramond-Bold" !important;
+.crimson-text-bold {
+    font-family: "CrimsonText-Bold" !important;
 }
 
 /* 
@@ -93,19 +77,19 @@ Font: CormorantGaramond & PinyonScript
 */
 h1 {
     font-size: 3em;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "CrimsonText-Bold";
 }
 
 h2 {
     font-size: 2.5em;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "CrimsonText-Bold";
 }
 
 h3 {
     font-size: 1.5em;
     padding: 0px !important;
     margin: 0px !important;
-    font-family: "CormorantGaramond-Bold";
+    font-family: "CrimsonText-Bold";
     word-wrap: break-word !important;
     white-space: normal !important;
 }
@@ -123,52 +107,51 @@ h3 {
 }
 
 h4 {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "CrimsonText-Bold";
 }
 
 h5 {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "CrimsonText-Bold";
 }
 
 /* 
 * Body
 */
 p {
-    font-family: "CormorantGaramond-Medium" !important;
+    font-family: "CrimsonText-Regular" !important;
     line-height: 1.6;
     font-size: 16;
 }
 
 a {
     text-decoration: none;
-    font-family: "CormorantGaramond-Medium";
+    font-family: "CrimsonText-Regular";
     cursor: pointer;
 }
 
 b {
-    font-family: "CormorantGaramond-Bold";
+    font-family: "CrimsonText-Bold";
 }
 
 i {
-    font-family: "CormorantGaramond-Italic";
+    font-family: "CrimsonText-Italic";
 }
 
 ul,
 ol,
 li {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "CrimsonText-Regular";
     line-height: 1.6;
     font-size: 16;
 }
 
 div {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "CrimsonText-Regular";
 }
 
 span {
-    font-family: "CormorantGaramond-Medium";
+    font-family: "CrimsonText-Regular";
 }
-
 
 /* 
 * Text size 
