@@ -291,6 +291,10 @@ body {
     padding: 0 0 5% 0;
 }
 
+.m-padding-t-b {
+    padding: 5% 0 5% 0;
+}
+
 .m-padding-r-l {
     padding: 0 5% 0 5%;
 }

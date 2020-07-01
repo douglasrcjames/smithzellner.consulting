@@ -12,6 +12,16 @@
     text-decoration: none;
     font-size: 17px;
   }
+
+  .top-nav a.right {
+    float: right;
+    background-color: white;
+    color: black
+  }
+
+  .top-nav a.right:hover {
+    background-color: #8FC981;
+  }
   
   .top-nav a:hover {
     background-color: #ddd;
@@ -25,15 +35,13 @@
   
   .top-nav .icon {
     background-color: #333;
-    padding: 5px 0 0 0;
+    padding: 6px 0 0 0;
     display: none;
   }
 
   .top-nav .icon:hover {
     background-color: #333;
   }
-
-
 
   .nav-l-text {
     /* font-size: 2rem;

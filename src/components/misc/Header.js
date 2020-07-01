@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { NavLink, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
+import { HashLink as NavLink } from 'react-router-hash-link';
 
 class Header extends Component {
     constructor(props) {
@@ -51,7 +52,14 @@ class Header extends Component {
                         activeClassName="nav-select">
                         Books &amp; Films
                     </NavLink>
-                    <a className="icon">
+                    <NavLink 
+                        exact
+                        to="/#Contact" 
+                        className="nav-link right" 
+                        activeClassName="nav-select">
+                        Contact
+                    </NavLink>
+                    <a className="icon" href="# ">
                         <svg className="ham hamRotate ham1" viewBox="0 0 100 100" width="40" ref={this.hamburgerRef}>
                             <path
                                     className="line top"

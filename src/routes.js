@@ -5,8 +5,10 @@ import withTracker from './components/misc/WithTracker';
 import { Page404 } from "./components/misc/Page404";
 
 // Pages
-import Home from './components/Home'
-import About from './components/About';
+import Home from './components/pages/Home'
+import About from './components/pages/About';
+import BooksFilms from './components/pages/BooksFilms';
+import Events from './components/pages/Events';
 
 class Routes extends Component {
     render() {
@@ -14,6 +16,8 @@ class Routes extends Component {
             <Switch>
                 <Route exact path="/" component={withTracker(Home)} />
                 <Route exact path="/about" component={withTracker(About)} />
+                <Route exact path="/books-films" component={withTracker(BooksFilms)} />
+                <Route exact path="/events" component={withTracker(Events)} />
                 <Route component={withTracker(Page404)} />
             </Switch>
         )
