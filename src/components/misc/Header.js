@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { withRouter } from "react-router-dom";
-import { HashLink as NavLink } from 'react-router-hash-link';
+import { withRouter, NavLink } from "react-router-dom";
+import { HashLink as HashNavLink } from 'react-router-hash-link';
 
 class Header extends Component {
     constructor(props) {
@@ -12,7 +12,7 @@ class Header extends Component {
 
     componentDidMount(){
         if(this.hamburgerRef && this.topNavRef){
-            this.hamburgerRef.current.addEventListener('click', () => {
+            document.body.addEventListener('click', () => {
                 this.hamburgerRef.current.classList.toggle('active');
                 this.topNavRef.current.classList.toggle("responsive")
               });
@@ -32,33 +32,28 @@ class Header extends Component {
                         ZELLNER CONSULTING
                     </NavLink>
                     <NavLink 
-                        exact
                         to="/about" 
                         className="nav-link" 
                         activeClassName="nav-select">
                         About
                     </NavLink>
                     <NavLink 
-                        exact
                         to="/events" 
                         className="nav-link" 
                         activeClassName="nav-select">
                         Events
                     </NavLink>
                     <NavLink 
-                        exact
                         to="/books-films" 
                         className="nav-link" 
                         activeClassName="nav-select">
                         Books &amp; Films
                     </NavLink>
-                    <NavLink 
-                        exact
+                    <HashNavLink 
                         to="/#Contact" 
-                        className="nav-link right" 
-                        activeClassName="nav-select">
+                        className="nav-link right">
                         Contact
-                    </NavLink>
+                    </HashNavLink>
                     <a className="icon" href="# ">
                         <svg className="ham hamRotate ham1" viewBox="0 0 100 100" width="40" ref={this.hamburgerRef}>
                             <path

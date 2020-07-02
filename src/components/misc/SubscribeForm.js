@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Grid, Row, Col } from 'react-flexbox-grid';
 import { Formik, Field } from 'formik';
 
+import { withToast } from '../misc/AlertHOC'
 import { subscribeFormSchema } from '../../utils/formSchemas'
 import { firestore } from "../../Fire.js";
 
-export default class SubscribeForm extends Component {
+class SubscribeForm extends Component {
     constructor(props) {
         super(props);
         this.addSubscriber = this.addSubscriber.bind(this);
@@ -18,7 +18,7 @@ export default class SubscribeForm extends Component {
             subscribed: true,
             timestamp: Date.now(),
         }).then(
-            alert("You've been subscribed submitted successfully.")
+            this.props.addToast("You've been subscribed submitted successfully.", { appearance: 'success' })
         );
       }
       
@@ -38,39 +38,29 @@ export default class SubscribeForm extends Component {
                     validationSchema={subscribeFormSchema}
                     >
                     {props => (
-                        <form onSubmit={props.handleSubmit}>
-                            <Grid fluid>
-                                {/* Row 1 */}
-                                <Row>
-                                    <Col sm={12} md={6} className="s-margin-b">
-                                        <label>Email:</label>
-                                        <br/>
-                                        <Field
-                                            type="text"
-                                            required
-                                            onChange={props.handleChange}
-                                            placeholder="john_doe@gmail.com"
-                                            name="email"
-                                            value={props.values.email}
-                                        />
-                                        <br/>
-                                        {props.errors.email && props.touched.email ? (
-                                            <span className="red">{props.errors.email}</span>
-                                        ) : (
-                                            ""
-                                        )}
-                                    </Col>
-                                </Row>
-                                <Row className="m-margin-b">
-                                    <Col xs={12}>
-                                        <button 
-                                            type="submit" 
-                                            disabled={!props.dirty && !props.isSubmitting}>
-                                                Submit
-                                        </button>
-                                    </Col>
-                                </Row>
-                            </Grid>
+                        <form onSubmit={props.handleSubmit} className="form">
+                            <Field
+                                type="text"
+                                className="reduced"
+                                required
+                                onChange={props.handleChange}
+                                placeholder="johndoe@email.com"
+                                name="email"
+                                value={props.values.email}
+                            />
+                            <button 
+                                type="submit" 
+                                disabled={!props.dirty && !props.isSubmitting}>
+                                    Submit
+                            </button>   
+                            <br/>
+                            {props.errors.email && props.touched.email ? (
+                                <span className="red">{props.errors.email}</span>
+                            ) : (
+                                ""
+                            )}
+                        
+                                 
                         </form>
                     )}
                 </Formik>
@@ -78,3 +68,5 @@ export default class SubscribeForm extends Component {
         )
     }
 }
+
+export default withToast(SubscribeForm);

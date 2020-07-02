@@ -2,10 +2,11 @@ import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { Formik, Field } from 'formik';
 
+import { withToast } from '../misc/AlertHOC'
 import { contactFormSchema } from '../../utils/formSchemas'
 import { firestore } from "../../Fire.js";
 
-export default class ContactForm extends Component {
+class ContactForm extends Component {
     constructor(props) {
         super(props);
         this.addMessage = this.addMessage.bind(this);
@@ -13,13 +14,14 @@ export default class ContactForm extends Component {
     
 
     addMessage(values){
+        
         firestore.collection('messages').add({
             email: values.email,
             name: values.name,
             body: values.body,
             timestamp: Date.now(),
         }).then(
-            alert("Message submitted successfully.")
+            this.props.addToast('Message submitted successfully.', { appearance: 'success' })
         );
       }
       
@@ -41,7 +43,7 @@ export default class ContactForm extends Component {
                     validationSchema={contactFormSchema}
                     >
                     {props => (
-                        <form onSubmit={props.handleSubmit}>
+                        <form onSubmit={props.handleSubmit} className="form">
                             <Grid fluid>
                                 {/* Row 1 */}
                                 <Row>
@@ -71,7 +73,7 @@ export default class ContactForm extends Component {
                                             type="text"
                                             required
                                             onChange={props.handleChange}
-                                            placeholder="john_doe@gmail.com"
+                                            placeholder="johndoe@email.com"
                                             name="email"
                                             value={props.values.email}
                                         />
@@ -103,7 +105,7 @@ export default class ContactForm extends Component {
                                         )}
                                     </Col>
                                 </Row>
-                                <Row className="m-margin-b">
+                                <Row center="xs" className="m-margin-b">
                                     <Col xs={12}>
                                         <button 
                                             type="submit" 
@@ -120,3 +122,5 @@ export default class ContactForm extends Component {
         )
     }
 }
+
+export default withToast(ContactForm);

@@ -355,6 +355,10 @@ body {
     margin: 0 0 1% 0;
 }
 
+.s-margin-l {
+    margin: 0% 0% 0% 1%;
+}
+
 .s-margin-t-b {
     margin: 1% 0% 1% 0%;
 }
