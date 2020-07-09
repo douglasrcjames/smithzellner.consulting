@@ -12,14 +12,14 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                <div className="center-text s-padding-t-b">
-                    <hr/>
+                <div className="center-text s-padding-b">
+                    <hr className="no-margin no-padding" />
                     <br/>
                     &copy;
                     {' '}
                     {this.state.year}
                     {' '}
-                    Zellner Consulting 
+                    Smith-Zellner Consulting 
                     {/* TODO: add me somewhere || Icons from <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>  */}
                 </div>
             </footer>

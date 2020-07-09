@@ -9,6 +9,7 @@ import Home from './components/pages/Home'
 import About from './components/pages/About';
 import BooksFilms from './components/pages/BooksFilms';
 import Events from './components/pages/Events';
+import Alliances from './components/pages/Alliances';
 
 class Routes extends Component {
     render() {
@@ -18,6 +19,7 @@ class Routes extends Component {
                 <Route exact path="/about" component={withTracker(About)} />
                 <Route exact path="/books-films" component={withTracker(BooksFilms)} />
                 <Route exact path="/events" component={withTracker(Events)} />
+                <Route exact path="/alliances" component={withTracker(Alliances)} />
                 <Route component={withTracker(Page404)} />
             </Switch>
         )

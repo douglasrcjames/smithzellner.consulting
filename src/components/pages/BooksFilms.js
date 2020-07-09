@@ -45,7 +45,7 @@ export default class BooksFilms extends Component {
                             <img src={require("../../assets/images/son-of-the-south-tall.jpg")} alt="presentation" className="medium responsive" />
                         </Col>
                         
-                        <Col sm={12} md={8} lg={10} >
+                        <Col sm={12} md={8} lg={10}>
                             <Row start="xs" className="s-margin-l">
                                 <Col>
                                     <h2 className="no-margin">Son of the South</h2>
@@ -76,12 +76,12 @@ export default class BooksFilms extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xs={12} sm={4} className="s-margin">
+                                <Col md={12} lg={4} className="s-margin">
                                     <a href={`https://www.imdb.com/title/tt2235372/`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
                                     </a>
                                 </Col>
-                                <Col xs={12} sm={4} className="s-margin">
+                                <Col md={12} lg={4} className="s-margin">
                                     <a href={`https://en.wikipedia.org/wiki/Son_of_the_South_(film)`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-book"/>&nbsp; View Wiki article </button>
                                     </a>
@@ -102,8 +102,49 @@ export default class BooksFilms extends Component {
                                 <Col>
                                     <h2 className="no-margin">Woodcutters of the Southern Pines</h2>
                                     <p>
-                                        Upcoming project, stay tuned!
+                                        This is an upcoming movie project Bob Zellner is featured in. Stay tuned for more information!
                                     </p>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                    <br/>
+                    <hr/>
+                    <br/>
+                    <Row className="m-margin-t-b">
+                        <Col sm={12} md={4} lg={2}>
+                            <img src={require("../../assets/images/letthepeopledecide.jpg")} alt="presentation" className="medium responsive" />
+                        </Col>
+                        
+                        <Col sm={12} md={8} lg={10} >
+                            <Row start="xs" className="s-margin-l">
+                                <Col>
+                                    <h2 className="no-margin">Let the People Decide</h2>
+                                    <p>
+                                        Bob Zellner is featured in this documentary and would recommend it as a great film to watch about voting rights. 
+                                    </p>
+                                    <p>
+                                        'Let the People Decide' traces the history of voting rights struggles in the United States from 1960 through the present day. 
+                                        The film draws parallels between the Mississippi voter registration drive of the early 1960's and North Carolina's 'Moral Monday' 
+                                        movement in the present day. A key goal of the film is connecting the dots between the generations to contextualize the current 
+                                        political environment surrounding race and voting. In 3 acts the film will travel across nearly 60 years to show how the current 
+                                        battles over voting are not a new front in the struggle over who gets to vote, but part of a continuing conflict that goes back many decades. 
+                                        Now as then, both sides claim the moral high ground. In the 1960's, race was the clear driving force of the conflict, today the fight is 
+                                        couched in claims of fraud and suppression. Political parties have drawn lines in the sand and this project will present arguments from all 
+                                        sides in order that the film can live up to it's name and 'Let the People Decide'.
+                                    </p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col md={12} lg={4} className="s-margin">
+                                    <a href={`https://www.imdb.com/title/tt7242544/`} rel="noopener noreferrer" target="_blank">
+                                        <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
+                                    </a>
+                                </Col>
+                                <Col md={12} lg={6} className="s-margin">
+                                    <a href={`https://thefilmcollaborative.org/fiscalsponsorship/projects/letthepeopledecide`} rel="noopener noreferrer" target="_blank">
+                                        <button className="s-btn-success m-width" type="button"><i className="fas fa-book"/>&nbsp; Watch Trailer &amp; Read More </button>
+                                    </a>
                                 </Col>
                             </Row>
                         </Col>

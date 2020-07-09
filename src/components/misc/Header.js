@@ -17,7 +17,6 @@ class Header extends Component {
                 this.topNavRef.current.classList.toggle("responsive")
               });
         }
-        
     }
 
     componentWillUnmount(){
@@ -29,7 +28,7 @@ class Header extends Component {
             <header>
                 <div className="top-nav" ref={this.topNavRef}>
                     <NavLink exact to="/" className="nav-l-text" activeClassName="nav-select">
-                        ZELLNER CONSULTING
+                        SMITH-ZELLNER CONSULTING
                     </NavLink>
                     <NavLink 
                         to="/about" 
@@ -49,8 +48,14 @@ class Header extends Component {
                         activeClassName="nav-select">
                         Books &amp; Films
                     </NavLink>
+                    <NavLink 
+                        to="/alliances" 
+                        className="nav-link" 
+                        activeClassName="nav-select">
+                        Alliances
+                    </NavLink>
                     <HashNavLink 
-                        to="/#Contact" 
+                        to="/about#Contact" 
                         className="nav-link right">
                         Contact
                     </HashNavLink>

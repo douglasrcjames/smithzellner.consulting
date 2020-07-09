@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { HashLink as Link } from 'react-router-hash-link';
-import ContactForm from '../misc/ContactForm';
+
 import SubscribeForm from '../misc/SubscribeForm';
 
 export default class Home extends Component {
@@ -10,15 +10,15 @@ export default class Home extends Component {
             <div>
                 <div className="hero-container-large">
                     <div className="hero-image-1">
-                        <div className="hero-text">
-                            <h1>Son of the South</h1>
+                        <div className="hero-text center-text">
+                            <h1>Smith-Zellner Consulting</h1>
                             <p>
-                                Zellner Consulting's goal is to raise our collective consciousness by facilitating the healing of our racial and 
+                                Our goal is to raise our collective consciousness by facilitating the healing of our racial and 
                                 genocidal national history. Through the lens of our collective history, we aim to demonstrate how to respect 
                                 differences of race, gender, religion and ideology. Listening to our neighbors and fellow citizens, searching for 
                                 the common threads that bind us into this vibrant weave of many colors.
                             </p>
-                            <Link to={`/#Contact`}><button>Contact</button></Link>
+                            <Link to={`/about#Contact`}><button>Contact</button></Link>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ export default class Home extends Component {
                 </div>
                 <div className="hero-container-large">
                     <div className="hero-image-2">
-                        <div className="hero-text">
+                        <div className="hero-text center-text">
                             <h1><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Event</h1>
                             <div className="event-border">
                                 <h3>
@@ -68,22 +68,11 @@ export default class Home extends Component {
                     </div>
                 </div>
                 
-                <div className="wrapper">
-                    <h2><a id="Contact" className="anchor" href="/#">Contact</a>Contact</h2>
-                    <ContactForm />
-                </div>
-
-
-                <div className="hero-container-small">
-                    <div className="hero-image-3">
-                        <div className="hero-text">
-                            <h2>Join the mailing list</h2>
-                            <SubscribeForm />
-                        </div>
-                    </div>
+                <div className="wrapper center-text m-padding-t-b">
+                    <h2>Join the mailing list</h2>
+                    <SubscribeForm />
                 </div>
                 
-               
             </div>
             
         )
