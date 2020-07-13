@@ -12,7 +12,7 @@ class Header extends Component {
 
     componentDidMount(){
         if(this.hamburgerRef && this.topNavRef){
-            document.body.addEventListener('click', () => {
+            this.hamburgerRef.current.addEventListener('click', () => {
                 this.hamburgerRef.current.classList.toggle('active');
                 this.topNavRef.current.classList.toggle("responsive")
               });
