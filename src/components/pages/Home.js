@@ -23,7 +23,7 @@ export default class Home extends Component {
                     </div>
                 </div>
 
-                <div className="l-container">
+                <div className="l-container m-padding-t-b">
                     <h1>What We Offer</h1>
                     <Grid fluid>
                         <Row center="xs">

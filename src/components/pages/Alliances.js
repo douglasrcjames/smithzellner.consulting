@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Alliances extends Component {
     render() {
         return (
-            <div className="wrapper">
+            <div className="wrapper m-padding-t-b">
                 <h1>Alliances</h1>
                 <p>Smith-Zellner Consulting has partnered with many great organiziations and groups around the nation over the years. Here are a few of our partnerships!</p>
                 <h2>Project Pilgrimage</h2>
