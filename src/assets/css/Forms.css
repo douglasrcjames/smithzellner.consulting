@@ -67,7 +67,7 @@ input.reduced {
   .s-btn-success {
     outline: 0;
     background: #43A047;
-    width: 175px;
+    width: auto;
     border: 0;
     padding: 15px;
     color: #FFFFFF;
