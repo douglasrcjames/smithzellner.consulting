@@ -48,7 +48,7 @@ export default class Home extends Component {
                 <div className="hero-container-large">
                     <div className="hero-image-2">
                         <div className="hero-text center-text">
-                            <h1><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
+                            <h1 className="m-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
                             <div className="event-border">
                                 <h3>
                                     <u>GEORGE WALLACE AND DONALD TRUMP</u>

@@ -36,6 +36,12 @@
     padding: 50px 25px 50px 25px;
 }
 
+@media screen and (max-width: 1300px) {
+    .event-border {
+        padding: 20px 10px 20px 10px;
+    }
+}
+
 /* 
 * Display 
 */
@@ -268,14 +274,18 @@ hr {
 
 /* Hero */
 .hero-container-large {
-    height: 600px;
+    height: 40em;
     max-width: 100%;
 }
 
-.hero-container-small {
-    height: 400px;
-    max-width: 100%;
+
+@media screen and (max-width: 1300px) {
+    .hero-container-large {
+        height: 45em;
+    }
+    
 }
+
 
 .hero-image-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/zellnerconsulting.appspot.com/o/media%2FBobZellner1.jpg?alt=media&token=dbe3b41b-57af-4b08-b101-93ba9fd16c6b");
