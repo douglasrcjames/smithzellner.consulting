@@ -98,13 +98,16 @@ h3 {
 
 @media screen and (max-width: 900px) {
     h1 {
-        font-size: 2em;
+        font-size: 2.5em !important;
+        line-height: 32px !important;
     }
     h2 {
-        font-size: 1.6em;
+        font-size: 2em !important;
+        line-height: 28px !important;
     }
     h3 {
-        font-size: 0.8em;
+        font-size: 1.3em !important;
+        line-height: 25px !important;
     }
 }
 
@@ -143,9 +146,22 @@ ul,
 ol,
 li {
     font-family: "CrimsonText-Regular";
-    line-height: 1.6;
-    font-size: 16px;
+    line-height: 1.4;
+    font-size: 18px;
 }
+
+@media screen and (max-width: 900px) {
+    p {
+       font-size: 14px;
+    }
+
+    ul,
+    ol,
+    li {
+        font-size: 14px;
+    }
+}
+   
 
 div {
     font-family: "CrimsonText-Regular";

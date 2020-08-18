@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Helmet } from 'react-helmet';
 import { HashLink as Link } from 'react-router-hash-link';
 
 import SubscribeForm from '../misc/SubscribeForm';
@@ -8,11 +9,14 @@ export default class Home extends Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <title>Smith-Zellner Consulting</title>
+                </Helmet>
                 <div className="hero-container-1">
                     <div className="hero-image-1">
                         <div className="hero-text-1 center-text">
                             <h1>Smith-Zellner Consulting</h1>
-                            <p>
+                            <p className="sm-margin-t-b">
                                 We are available to lead civil rights history tours, train youth
                                 leaders in non-violent action, share our accounts of key events &amp;
                                 teach people of opposing viewpoints how to work together.
@@ -29,7 +33,7 @@ export default class Home extends Component {
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/presentation.png")} alt="presentation" className="small responsive center m-padding-t-b" />
                                 <h3>Lectures</h3>
-                                <p>We can come give a detailed lecture on Civil Rights for your event.</p>
+                                <p>We can come give a detailed lecture on Civil Rights for any event, big or small.</p>
                             </Col>
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/conversation.png")} alt="conversation" className="small responsive center m-padding-t-b" />
@@ -47,7 +51,7 @@ export default class Home extends Component {
                 <div className="hero-container-2">
                     <div className="hero-image-2">
                         <div className="hero-text-2 center-text">
-                            <h1 className="s-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
+                            <h1 className="sm-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
                             <div className="event-border">
                                 <h3>
                                     <u>GEORGE WALLACE AND DONALD TRUMP</u>
@@ -88,7 +92,7 @@ export default class Home extends Component {
                 </div>
                 
                 <div className="wrapper center-text m-padding-t-b">
-                    <h2>Join the mailing list</h2>
+                    <h2 className="s-margin-t-b">Join the mailing list</h2>
                     <SubscribeForm />
                 </div>
                 

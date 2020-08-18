@@ -283,16 +283,9 @@ hr {
     max-width: 100%;
 }
 
-@media screen and (min-width: 901px) and (max-width: 1300px){ 
+@media screen and (max-width: 1300px){ 
     .hero-container-2 {
         height: 50em;
-    }
-}
-
-
-@media screen and (max-width: 900px) {
-    .hero-container-2 {
-        height: 70em;
     }
 }
 

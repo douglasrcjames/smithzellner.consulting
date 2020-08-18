@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Helmet } from 'react-helmet';
 
 export default class Media extends Component {
     render() {
         return (
             <div className="wrapper">
+                <Helmet>
+                    <title>Media | Smith-Zellner Consulting</title>
+                </Helmet>
                 <h1>Smith-Zellner Media</h1>
                 <Grid fluid>
                     <Row className="m-margin-t-b">

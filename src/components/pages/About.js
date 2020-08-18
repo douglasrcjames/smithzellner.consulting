@@ -2,11 +2,15 @@ import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import ContactForm from '../misc/ContactForm';
 import { Timeline } from 'rsuite';
+import { Helmet } from 'react-helmet';
 
 export default class About extends Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <title>About | Smith-Zellner Consulting</title>
+                </Helmet>
                 <div className="wrapper m-padding-t-b">
                     <Grid fluid>
                         <Row>

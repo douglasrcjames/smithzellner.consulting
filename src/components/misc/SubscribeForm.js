@@ -50,6 +50,7 @@ class SubscribeForm extends Component {
                             />
                             <button 
                                 type="submit" 
+                                className="s-margin-t-b"
                                 disabled={!props.dirty && !props.isSubmitting}>
                                     Submit
                             </button>   
@@ -58,9 +59,7 @@ class SubscribeForm extends Component {
                                 <span className="red">{props.errors.email}</span>
                             ) : (
                                 ""
-                            )}
-                        
-                                 
+                            )} 
                         </form>
                     )}
                 </Formik>

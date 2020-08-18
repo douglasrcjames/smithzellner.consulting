@@ -363,6 +363,15 @@ body {
     margin: 1% 0% 1% 0%;
 }
 
+.sm-margin-b { 
+    margin: 0 0 2% 0;
+}
+
+.sm-margin-t-b { 
+    margin: 2% 0 2% 0;
+}
+
+
 .m-margin {
     margin: 5%;
 }

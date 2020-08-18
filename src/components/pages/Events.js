@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
+import { Helmet } from 'react-helmet'
 
 export default class Events extends Component {
     render() {
         return (
             <div className="wrapper">
+                <Helmet>
+                    <title>Events | Smith-Zellner Consulting</title>
+                </Helmet>
                 <h1>Events</h1>
 
                 <h3>
