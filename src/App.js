@@ -17,6 +17,7 @@ import "./assets/css/Images.css";
 import "./assets/css/Misc.css";
 import "./assets/css/Hamburger.css";
 import "./assets/css/Forms.css";
+import 'rsuite/dist/styles/rsuite-default.css'
 
 function App() {
   return (

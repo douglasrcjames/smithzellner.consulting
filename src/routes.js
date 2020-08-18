@@ -7,7 +7,7 @@ import { Page404 } from "./components/misc/Page404";
 // Pages
 import Home from './components/pages/Home'
 import About from './components/pages/About';
-import BooksFilms from './components/pages/BooksFilms';
+import Media from './components/pages/Media';
 import Events from './components/pages/Events';
 import Alliances from './components/pages/Alliances';
 
@@ -17,7 +17,7 @@ class Routes extends Component {
             <Switch>
                 <Route exact path="/" component={withTracker(Home)} />
                 <Route exact path="/about" component={withTracker(About)} />
-                <Route exact path="/books-films" component={withTracker(BooksFilms)} />
+                <Route exact path="/media" component={withTracker(Media)} />
                 <Route exact path="/events" component={withTracker(Events)} />
                 <Route exact path="/alliances" component={withTracker(Alliances)} />
                 <Route component={withTracker(Page404)} />

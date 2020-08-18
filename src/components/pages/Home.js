@@ -8,17 +8,16 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <div className="hero-container-large">
+                <div className="hero-container-1">
                     <div className="hero-image-1">
-                        <div className="hero-text center-text">
+                        <div className="hero-text-1 center-text">
                             <h1>Smith-Zellner Consulting</h1>
                             <p>
-                                Our goal is to raise our collective consciousness by facilitating the healing of our racial and 
-                                genocidal national history. Through the lens of our collective history, we aim to demonstrate how to respect 
-                                differences of race, gender, religion and ideology. Listening to our neighbors and fellow citizens, searching for 
-                                the common threads that bind us into this vibrant weave of many colors.
+                                We are available to lead civil rights history tours, train youth
+                                leaders in non-violent action, share our accounts of key events &amp;
+                                teach people of opposing viewpoints how to work together.
                             </p>
-                            <Link to={`/about#Contact`}><button>Contact</button></Link>
+                            <Link to={`/about#Contact`} className="s-margin-t-b display-block"><button>Contact</button></Link>
                         </div>
                     </div>
                 </div>
@@ -45,10 +44,10 @@ export default class Home extends Component {
                         </Row>
                     </Grid>
                 </div>
-                <div className="hero-container-large">
+                <div className="hero-container-2">
                     <div className="hero-image-2">
-                        <div className="hero-text center-text">
-                            <h1 className="m-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
+                        <div className="hero-text-2 center-text">
+                            <h1 className="s-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
                             <div className="event-border">
                                 <h3>
                                     <u>GEORGE WALLACE AND DONALD TRUMP</u>
@@ -74,10 +73,10 @@ export default class Home extends Component {
 
                                 <p>
                                     The conversations will be on Zoom live at 5 pm PDT time on the dates AND recorded for folks to watch via Zoom or Youtube on your own timing. 
-                                    Registrants will receive viewing instructions one day in advance of conversations and then one hour before each conversation.  To register, here’s the signup:
+                                    Registrants will receive viewing instructions one day in advance of conversations and then one hour before each conversation. Sign up below!
                                 </p>
                                     
-                                <div> 
+                                <div className="s-margin-t-b"> 
                                     <a href="https://www.eventbrite.com/e/george-wallace-donald-trump-conversations-with-american-hero-bob-zellner-tickets-114193064530" target="_blank" rel="noopener noreferrer">
                                         <button className="s-btn-success" type="button">Sign Up at EventBrite</button>
                                     </a>

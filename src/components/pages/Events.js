@@ -30,7 +30,7 @@ export default class Events extends Component {
 
                 <p>
                     The conversations will be on Zoom live at 5 pm PDT time on the dates AND recorded for folks to watch via Zoom or Youtube on your own timing. 
-                    Registrants will receive viewing instructions one day in advance of conversations and then one hour before each conversation.  To register, here’s the signup:
+                    Registrants will receive viewing instructions one day in advance of conversations and then one hour before each conversation.  Sign up below!
                 </p>
                     
                 <div> 

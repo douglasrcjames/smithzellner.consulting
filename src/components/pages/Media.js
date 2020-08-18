@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-export default class BooksFilms extends Component {
+export default class Media extends Component {
     render() {
         return (
             <div className="wrapper">
-                <h1>Books &amp; Films</h1>
+                <h1>Smith-Zellner Media</h1>
                 <Grid fluid>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
@@ -58,6 +58,21 @@ export default class BooksFilms extends Component {
                                     <label>Recent Media:</label>
                                     <ul>
                                         <li>
+                                            <a href={`https://www.youtube.com/watch?v=sJeW9qSxPMs`} rel="noopener noreferrer" target="_blank">
+                                                <u>WKRG Son of The South full interview with Bob Zellner</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`https://www.youtube.com/watch?v=gjg3_SnpAAQ`} rel="noopener noreferrer" target="_blank">
+                                                <u>WKRG Son of The South excerpts from the interview with Bob Zellner</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`https://clearhorizonent.com/2020/06/21/son-of-the-south/`} rel="noopener noreferrer" target="_blank">
+                                                <u>Clear Horizon Son of the South feature details</u>
+                                            </a>
+                                        </li>
+                                        <li>
                                             <a href={`http://lvbxmag.com/2018/07/26/part-ii-son-of-the-south`} rel="noopener noreferrer" target="_blank">
                                                 <u>LVBX Magazine feature: Son of the South: Part I</u>
                                             </a>
@@ -76,12 +91,12 @@ export default class BooksFilms extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col md={12} lg={4} className="s-margin">
+                                <Col xs={12} sm={6} lg={4} className="s-margin-t-b">
                                     <a href={`https://www.imdb.com/title/tt2235372/`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
                                     </a>
                                 </Col>
-                                <Col md={12} lg={4} className="s-margin">
+                                <Col xs={12} sm={6} lg={4} className="s-margin-t-b">
                                     <a href={`https://en.wikipedia.org/wiki/Son_of_the_South_(film)`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-book"/>&nbsp; View Wiki article </button>
                                     </a>
@@ -136,12 +151,12 @@ export default class BooksFilms extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col md={12} lg={4} className="s-margin">
+                                <Col sm={12} md={6} lg={4} className="s-margin-t-b">
                                     <a href={`https://www.imdb.com/title/tt7242544/`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
                                     </a>
                                 </Col>
-                                <Col md={12} lg={6} className="s-margin">
+                                <Col sm={12} md={6} lg={8} className="s-margin-t-b">
                                     <a href={`https://thefilmcollaborative.org/fiscalsponsorship/projects/letthepeopledecide`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success m-width" type="button"><i className="fas fa-book"/>&nbsp; Watch Trailer &amp; Read More </button>
                                     </a>
@@ -150,6 +165,25 @@ export default class BooksFilms extends Component {
                         </Col>
                     </Row>
                 </Grid>
+                <br/>
+                <hr/>
+                <br/>
+                <div className="center m-width m-padding-b">
+                    <h3>Bob Zellner remembers John Lewis</h3>
+                    <div className="video-container">
+                        <iframe
+                            title="Bob Zellner remembers John Lewis"
+                            className="center-text"
+                            src="https://www.youtube.com/embed/td43TqqsKMI"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen="allowfullscreen"
+                            mozallowfullscreen="mozallowfullscreen" 
+                            msallowfullscreen="msallowfullscreen" 
+                            oallowfullscreen="oallowfullscreen" 
+                            webkitallowfullscreen="webkitallowfullscreen" />
+                    </div>
+                </div>
             </div>
         )
     }

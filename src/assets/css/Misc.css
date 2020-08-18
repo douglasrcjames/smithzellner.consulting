@@ -273,19 +273,28 @@ hr {
 
 
 /* Hero */
-.hero-container-large {
+.hero-container-1 {
     height: 40em;
     max-width: 100%;
 }
 
-
-@media screen and (max-width: 1300px) {
-    .hero-container-large {
-        height: 45em;
-    }
-    
+.hero-container-2 {
+    height: 45em;
+    max-width: 100%;
 }
 
+@media screen and (min-width: 901px) and (max-width: 1300px){ 
+    .hero-container-2 {
+        height: 50em;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .hero-container-2 {
+        height: 70em;
+    }
+}
 
 .hero-image-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/zellnerconsulting.appspot.com/o/media%2FBobZellner1.jpg?alt=media&token=dbe3b41b-57af-4b08-b101-93ba9fd16c6b");
@@ -315,7 +324,18 @@ hr {
     
   }
   
-  .hero-text {
+  .hero-text-1 {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 6px black !important;
+  }
+
+  
+  .hero-text-2 {
     position: absolute;
     width: 60%;
     top: 50%;
@@ -323,9 +343,9 @@ hr {
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 0 0 6px black !important;
-  }
+}
   
-  .hero-text button {
+  .hero-text-1 button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -340,11 +360,20 @@ hr {
     background-color: #69cf48;
   }
 
+  @media screen and (max-width: 1400px) {
+    .hero-text-1 {
+         width: 60%;
+    }
+ }
 
   @media screen and (max-width: 900px) {
-   .hero-text {
-    width: 85%;
+   .hero-text-1 {
+        width: 85%;
    }
+
+   .hero-text-2 {
+        width: 85%;
+    }
 }
 
 

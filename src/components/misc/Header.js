@@ -43,10 +43,10 @@ class Header extends Component {
                         Events
                     </NavLink>
                     <NavLink 
-                        to="/books-films" 
+                        to="/media" 
                         className="nav-link" 
                         activeClassName="nav-select">
-                        Books &amp; Films
+                        Media
                     </NavLink>
                     <NavLink 
                         to="/alliances" 
