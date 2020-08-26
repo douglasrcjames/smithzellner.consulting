@@ -11,7 +11,7 @@ export default class About extends Component {
                 <Helmet>
                     <title>About | Smith-Zellner Consulting</title>
                 </Helmet>
-                <div className="wrapper m-padding-t-b">
+                <div className="wrapper">
                     <Grid fluid>
                         <Row>
                             <Col sm={12} md={8} lg={10}>
@@ -67,19 +67,100 @@ export default class About extends Component {
                                     <Col>
                                         <h2>Bob Zellner</h2>
                                         <p>
-                                            Bob Zellner brings to life the victories, struggles and heartbreaks of the Civil Rights era in a way that empowers and instructs audiences and the modern-day movement. 
+                                            In his talks, training and writing Bob Zellner brings to life the victories, struggles and heartbreaks of the Civil Rights era in a way that empowers and instructs audiences and 
+                                            the modern-day movement. Bob presents a modern-day message for combating deep-seated racism, discrimination and prejudice and sparking widespread social change. 
                                         </p>
                                         <p>
-                                            Bob is one of the most influential leaders in the Civil Rights Movement, from the 1960s to today. The son and grandson of Ku Klux Klan members, 
+                                            Bob is one of the key leaders in the Civil Rights Movement, from the 1960s to today. The son and grandson of Ku Klux Klan members, 
                                             he risked his life – and nearly lost it – many times in the fight to achieve The Second Emancipation. As an organizer of The Freedom Rides of 1961 
                                             and the first white southerner to serve as field secretary for the Student Nonviolent Coordinating Committee, he worked alongside Martin Luther King, Jr., 
                                             John Lewis, Rosa Parks and many other civil rights leaders. Famous for battles with the KKK, segregationist lynch mobs, and violent police, 
                                             he is now the individual that a new generation turns to with questions on the racial, historical and cultural assumptions on which they were raised, 
                                             as they ask themselves, "What is my place in this struggle?"
                                         </p>
-                                        <p>
-                                            Bob presents a modern-day message for combating deep-seated racism, discrimination and prejudice and sparking widespread social change.
-                                        </p>
+
+                                        <Timeline align={"left"} className="s-margin-t">
+                                            <Timeline.Item>
+                                                <b className="display-block">2020</b>
+                                                <p>SAA (Shirts Across America) Youth leadership organization, organizational consultant, <a href="http://www.shirtsacrossamerica.org" target="_blank" rel="noopener noreferrer">www.shirtsacrossamerica.org</a></p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2020</b>
+                                                <p>Common Power, <a href="https://www.commonpower.org" target="_blank" rel="noopener noreferrer">www.commonpower.org</a></p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2020</b>
+                                                <p>Project Pilgrimage, Traveling Historian on Biannual Civil Rights tours, since 2007, <a href="https://www.projectpilgrimage.org" target="_blank" rel="noopener noreferrer">www.projectpilgrimage.org</a></p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2020</b>
+                                                <p>Faith &amp; Politics Congressional Tours, Featured Speaker since 2005, <a href="https://www.faithandpolitics.org" target="_blank" rel="noopener noreferrer">www.faithandpolitics.org.org</a></p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2019</b>
+                                                <p>Consultant for Son of the South, film based on autobiography, The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2019</b>
+                                                <p>Honorary Doctor of Humane Letters, University of Indianapolis</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2016</b>
+                                                <p>Volunteer Doug Jones Campaign, AL</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2015-2014</b>
+                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals with Republican Mayor Adam O’Neal &amp; Bob Zellnere</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2010-2015</b>
+                                                <p>Moral Mondays Movement with Reverend William Barber, NC</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2013</b>
+                                                <p>One Dream Multimedia Project, a Time Magazine issue commemorating 50th anniversary of 1963 March on Washington. Features Bob among other key civil rights activist.</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2012</b>
+                                                <p>Living Legends Awards for Service to Humanity, Emmanuel Seventh-day Adventist Church, Ashton, MD</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2009</b>
+                                                <p>Lillian Smith Book award for The Wrong Side of Murder Creek <a href="https://www.youtube.com/watch?v=kTnl5DCDEqM" target="_blank" rel="noopener noreferrer">View video of Bob receiving award</a></p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2003</b>
+                                                <p>Shinnecock Nation campaign activist to stop bulldozing of ancestral burial grounds, Southampton, N</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2002</b>
+                                                <p>Honorary Doctor of Laws, St. Joseph College, New York</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2001</b>
+                                                <p>Candidate, Democratic NY State Senator</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">1980</b>
+                                                <p>GROW (Grass Roots Organizing Work) project organizer in MI, AL LA GA since 1968. Gulf Coast Pulp Wood Association, Woodcutters Union Campaign, project organizer since 1968.</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">1967</b>
+                                                <p>SNCC field secretary, with Rev. Dr. Martin Luther King JR, Rosa Parks, Julian Bond, John Lewis, Fannie Lou Hamer, Kwame Ture (Stokely Carmichael), James Forman, Bayard Rustin, Harry Belafonte, Bob Dylan, Pete Seeger-since 1961</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">1961</b>
+                                                <p>Counselor preparing students to enter integrated classrooms in the fall</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">1961</b>
+                                                <p>Trainee, Non-Violence Workshops lead by Jim Lawson, John Lewis, Diane Nash in Nashville, TN</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">1961</b>
+                                                <p>BA in Sociology &amp; Psychology, Huntingdon College, Montgomery, AL</p>
+                                            </Timeline.Item>
+                                        </Timeline>
                                     </Col>
                                 </Row>
                             </Col>
@@ -96,7 +177,7 @@ export default class About extends Component {
                                 <Row start="xs" className="s-margin-l">
                                     <Col>
                                         <h2>Pamela Smith</h2>
-                                        <Timeline align={"left"} className="m-margin-t">
+                                        <Timeline align={"left"} className="s-margin-t">
                                             <Timeline.Item>
                                                 <b className="display-block">2018-Present</b>
                                                 <p>Co-Founder &amp; Managing Partner, Smith-Zellner Consulting, Fairhope, Alabama</p>

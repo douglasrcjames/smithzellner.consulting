@@ -113,25 +113,6 @@ export default class Media extends Component {
                     <br/>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/McCombBridge2.jpg")} alt="presentation" className="medium responsive" />
-                        </Col>
-                        
-                        <Col sm={12} md={8} lg={10} >
-                            <Row start="xs" className="s-margin-l">
-                                <Col>
-                                    <h2 className="no-margin">Woodcutters of the Southern Pines</h2>
-                                    <p>
-                                        This is an upcoming movie project Bob Zellner is featured in. Stay tuned for more information!
-                                    </p>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                    <br/>
-                    <hr/>
-                    <br/>
-                    <Row className="m-margin-t-b">
-                        <Col sm={12} md={4} lg={2}>
                             <img src={require("../../assets/images/letthepeopledecide.jpg")} alt="presentation" className="medium responsive" />
                         </Col>
                         

@@ -79,6 +79,7 @@ h1 {
     font-size: 3em;
     font-family: "CrimsonText-Bold";
     line-height: 30px;
+    margin: 0 0 20px 0 !important;
 }
 
 h2 {
@@ -109,10 +110,16 @@ h3 {
         font-size: 1.3em !important;
         line-height: 25px !important;
     }
+
+    h4 {
+        font-family: "CrimsonText-Bold";
+        line-height: 20px !important;
+    }
 }
 
 h4 {
     font-family: "CrimsonText-Bold";
+    line-height: 25px !important;
 }
 
 h5 {
