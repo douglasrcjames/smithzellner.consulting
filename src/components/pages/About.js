@@ -46,7 +46,7 @@ export default class About extends Component {
                             <Col sm={12} md={4} lg={2}>
                                 <Row start="xs" center="xs" className="s-margin-l">
                                     <Col>
-                                        <img src={require("../../assets/images/SS1_6241.jpg")} alt="pamela smith" className="medium responsive m-padding-t-b" />
+                                        <img src={require("../../assets/images/misc/SS1_6241.jpg")} alt="pamela smith" className="medium responsive m-padding-t-b" />
                                     </Col>
                                 </Row>
                             </Col>
@@ -59,7 +59,7 @@ export default class About extends Component {
                     
                         <Row>
                             <Col sm={12} md={4} lg={2}>
-                                <img src={require("../../assets/images/BobZellner3-sq.jpg")} alt="bob zellner" className="medium rounded responsive" />
+                                <img src={require("../../assets/images/misc/BobZellner3-sq.jpg")} alt="bob zellner" className="medium rounded responsive" />
                             </Col>
                             
                             <Col sm={12} md={8} lg={10} >
@@ -170,7 +170,7 @@ export default class About extends Component {
                         <br/>
                         <Row>
                             <Col sm={12} md={4} lg={2}>
-                                <img src={require("../../assets/images/SS1_6252.jpg")} alt="pamela smith" className="medium rounded responsive m-padding-t-b" />
+                                <img src={require("../../assets/images/misc/SS1_6252.jpg")} alt="pamela smith" className="medium rounded responsive m-padding-t-b" />
                             </Col>
                             
                             <Col sm={12} md={8} lg={10} >

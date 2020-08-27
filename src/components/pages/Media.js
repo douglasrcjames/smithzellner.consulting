@@ -13,7 +13,7 @@ export default class Media extends Component {
                 <Grid fluid>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/murder-creek-cover.jpg")} alt="presentation" className="medium responsive" />
+                            <img src={require("../../assets/images/misc/murder-creek-cover.jpg")} alt="presentation" className="medium responsive" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -46,7 +46,7 @@ export default class Media extends Component {
                     <br/>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/son-of-the-south-tall.jpg")} alt="presentation" className="medium responsive" />
+                            <img src={require("../../assets/images/misc/son-of-the-south-tall.jpg")} alt="presentation" className="medium responsive" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10}>
@@ -113,7 +113,7 @@ export default class Media extends Component {
                     <br/>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/letthepeopledecide.jpg")} alt="presentation" className="medium responsive" />
+                            <img src={require("../../assets/images/misc/letthepeopledecide.jpg")} alt="presentation" className="medium responsive" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >

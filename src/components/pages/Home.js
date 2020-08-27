@@ -25,6 +25,22 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="background-black center-text">
+                    <div className="white">
+                        <Grid fluid>
+                            <Row middle="sm">
+                                <Col sm={12} md={4} lg={2} className="s-margin-t-b">
+                                    <img src={require("../../assets/images/misc/maya2.jpg")} alt="bob zellner" className="medium rounded responsive" />
+                                </Col>
+                                <Col sm={12} md={8} lg={10} className="s-margin-t-b">
+                                    <h4><i>Wrong Side of Murder Creek</i></h4>
+                                    <p>“in an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s] story needs to be told; this story needs to be heard.”</p>
+                                    <span>- Maya Angelou</span>
+                                </Col>
+                            </Row>
+                        </Grid>
+                    </div>
+                </div>
 
                 <div className="l-container m-padding-t-b">
                     <h1>What We Offer</h1>
