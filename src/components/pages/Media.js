@@ -19,8 +19,8 @@ export default class Media extends Component {
                         <Col sm={12} md={8} lg={10} >
                             <Row start="xs" className="s-margin-l">
                                 <Col>
-                                    <h2 className="s-margin-b">The Wrong Side of Murder Creek</h2>
-                                    <h3 className="no-margin">A White Southerner in the Freedom Movement</h3>
+                                    <h2 className="s-margin-b"><i>The Wrong Side of Murder Creek</i></h2>
+                                    <h3 className="no-margin"><i>A White Southerner in the Freedom Movement</i></h3>
                                     <p>
                                         Even forty years after the civil rights movement, the transition from son and grandson of Klansmen to field secretary of SNCC seems quite a journey. 
                                         In the early 1960s, when Bob Zellner’s professors and classmates at a small church school in Alabama thought he was crazy for even wanting to do research 
@@ -31,7 +31,7 @@ export default class Media extends Component {
                                         some but admired and revered by others.
                                     </p>
                                     <p>
-                                        The Wrong Side of Murder Creek, winner of the 2009 Lillian Smith Book Award, is Bob Zellner’s larger-than-life story, and it was worth waiting for.
+                                        <i>The Wrong Side of Murder Creek</i>, winner of the 2009 Lillian Smith Book Award, is Bob Zellner’s larger-than-life story, and it was worth waiting for.
                                     </p>
                                     <br/>
                                     <a href={`https://www.amazon.com/Wrong-Side-Murder-Creek-Southerner/dp/1588383946/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=`} rel="noopener noreferrer" target="_blank">
@@ -52,43 +52,43 @@ export default class Media extends Component {
                         <Col sm={12} md={8} lg={10}>
                             <Row start="xs" className="s-margin-l">
                                 <Col>
-                                    <h2 className="no-margin">Son of the South</h2>
-                                    <h3 className="no-margin">An upcoming film based on The Wrong Side of Murder Creek</h3>
+                                    <h2 className="no-margin"><i>Son of the South</i></h2>
+                                    <h3 className="no-margin">An upcoming film based on <i>The Wrong Side of Murder Creek</i></h3>
                                     <p>
-                                        Son of the South is an upcoming American biographical drama film, written and directed by Barry Alexander Brown and with executive producer Spike Lee. 
-                                        Based on Bob Zellner's autobiography, The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement, it stars Lucas Till, Lucy Hale, 
+                                        <i>Son of the South</i> is an upcoming American biographical drama film, written and directed by Barry Alexander Brown and with executive producer Spike Lee. 
+                                        Based on Bob Zellner's autobiography, <i>The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement</i>, it stars Lucas Till, Lucy Hale, 
                                         Lex Scott Davis, Julia Ormond, Cedric the Entertainer, Sharonne Lainer, Mike C. Manning, Brian Dennehy and Chaka Forman.
                                     </p>
                                     <label>Recent Media:</label>
                                     <ul>
                                         <li>
                                             <a href={`https://www.youtube.com/watch?v=sJeW9qSxPMs`} rel="noopener noreferrer" target="_blank">
-                                                <u>WKRG Son of The South full interview with Bob Zellner</u>
+                                                <u>WKRG <i>Son of the South</i> full interview with Bob Zellner</u>
                                             </a>
                                         </li>
                                         <li>
                                             <a href={`https://www.youtube.com/watch?v=gjg3_SnpAAQ`} rel="noopener noreferrer" target="_blank">
-                                                <u>WKRG Son of The South excerpts from the interview with Bob Zellner</u>
+                                                <u>WKRG <i>Son of the South</i> excerpts from the interview with Bob Zellner</u>
                                             </a>
                                         </li>
                                         <li>
                                             <a href={`https://clearhorizonent.com/2020/06/21/son-of-the-south/`} rel="noopener noreferrer" target="_blank">
-                                                <u>Clear Horizon Son of the South feature details</u>
+                                                <u>Clear Horizon <i>Son of the South</i> feature details</u>
                                             </a>
                                         </li>
                                         <li>
                                             <a href={`http://lvbxmag.com/2018/07/26/part-ii-son-of-the-south`} rel="noopener noreferrer" target="_blank">
-                                                <u>LVBX Magazine feature: Son of the South: Part I</u>
+                                                <u>LVBX Magazine feature: <i>Son of the South</i>: Part I</u>
                                             </a>
                                         </li>
                                         <li>
                                             <a href={`http://lvbxmag.com/2018/07/26/part-ii-son-of-the-south`} rel="noopener noreferrer" target="_blank">
-                                                <u>LVBX Magazine feature: Son of the South: Part II</u>
+                                                <u>LVBX Magazine feature: <i>Son of the South</i>: Part II</u>
                                             </a>
                                         </li>
                                         <li>
                                             <a href={`https://variety.com/2019/film/news/spike-lee-son-of-the-south-1203129386`} rel="noopener noreferrer" target="_blank">
-                                                <u>Variety Magazine feature: Spike Lee Exec Producing Civil Rights Drama Son of the South</u>
+                                                <u>Variety Magazine feature: Spike Lee Exec Producing Civil Rights Drama <i>Son of the South</i></u>
                                             </a>
                                         </li>
                                     </ul>
@@ -119,19 +119,19 @@ export default class Media extends Component {
                         <Col sm={12} md={8} lg={10} >
                             <Row start="xs" className="s-margin-l">
                                 <Col>
-                                    <h2 className="no-margin">Let the People Decide</h2>
+                                    <h2 className="no-margin"><i>Let the People Decide</i></h2>
                                     <p>
                                         Bob Zellner is featured in this documentary and would recommend it as a great film to watch about voting rights. 
                                     </p>
                                     <p>
-                                        'Let the People Decide' traces the history of voting rights struggles in the United States from 1960 through the present day. 
+                                        <i>Let the People Decide</i> traces the history of voting rights struggles in the United States from 1960 through the present day. 
                                         The film draws parallels between the Mississippi voter registration drive of the early 1960's and North Carolina's 'Moral Monday' 
                                         movement in the present day. A key goal of the film is connecting the dots between the generations to contextualize the current 
                                         political environment surrounding race and voting. In 3 acts the film will travel across nearly 60 years to show how the current 
                                         battles over voting are not a new front in the struggle over who gets to vote, but part of a continuing conflict that goes back many decades. 
                                         Now as then, both sides claim the moral high ground. In the 1960's, race was the clear driving force of the conflict, today the fight is 
                                         couched in claims of fraud and suppression. Political parties have drawn lines in the sand and this project will present arguments from all 
-                                        sides in order that the film can live up to it's name and 'Let the People Decide'.
+                                        sides in order that the film can live up to it's name and <i>Let the People Decide</i>.
                                     </p>
                                 </Col>
                             </Row>

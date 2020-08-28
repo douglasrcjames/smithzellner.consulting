@@ -18,7 +18,7 @@ class SubscribeForm extends Component {
             subscribed: true,
             timestamp: Date.now(),
         }).then(
-            this.props.addToast("You've been subscribed submitted successfully.", { appearance: 'success' })
+            this.props.addToast("You've been subscribed successfully.", { appearance: 'success' })
         );
       }
       

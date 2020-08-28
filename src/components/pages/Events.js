@@ -53,9 +53,9 @@ export default class Events extends Component {
                     <hr/>
                     <br/>
 
-                    <h2>Son of the South to Premier at American Black Film Festival</h2>
+                    <h2><i>Son of the South</i> to Premiere at American Black Film Festival</h2>
 
-                    <h4><b>When</b>: Wednesday, August 26th at 8pm EST</h4>
+                    <h4><b>When</b>: Wednesday, August 26, 2020; 8pm EST</h4>
 
                     <div className="s-padding-t-b">
                         <h4>HOW TO SIGN FOR THE VIRTUAL ABFF:</h4>
@@ -79,7 +79,7 @@ export default class Events extends Component {
                     <h3>
                         <u>GEORGE WALLACE AND DONALD TRUMP</u>
                         <br/>
-                        Conversations with Bob Zellner about Two Nation-Defining Demagogues
+                        Conversations with Bob Zellner on 2 Nation-Defining Demagogues
                     </h3>
                     
                     <div className="s-padding-t-b">

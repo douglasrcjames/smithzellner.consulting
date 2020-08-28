@@ -52,6 +52,7 @@ class ContactForm extends Component {
                                         <br/>
                                         <Field
                                             type="text"
+                                            className="black"
                                             required
                                             onChange={props.handleChange}
                                             placeholder="John Doe"
@@ -71,6 +72,7 @@ class ContactForm extends Component {
                                         <br/>
                                         <Field
                                             type="text"
+                                            className="black"
                                             required
                                             onChange={props.handleChange}
                                             placeholder="johndoe@email.com"
@@ -91,6 +93,7 @@ class ContactForm extends Component {
                                         <br/>
                                         <Field
                                             component="textarea"
+                                            className="black"
                                             required
                                             onChange={props.handleChange}
                                             placeholder="Detail what you want to say here."

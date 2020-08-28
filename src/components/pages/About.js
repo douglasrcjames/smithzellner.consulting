@@ -19,26 +19,26 @@ export default class About extends Component {
                                 <p>
                                     Our goal is to raise our collective consciousness by facilitating the healing of our racial and genocidal national history. 
                                     Through the lens of our collective history, we aim to demonstrate how to respect differences of race, gender, religion and ideology. 
-                                    Listening to our neighbors and fellow citizens, searching for the common threads that bind us into this vibrant weave of many colors.
+                                    Through listening to our neighbors and fellow citizens, we search for the common threads that bind us into this vibrant weave of many colors.
                                 </p>
                                 <br/>
                                 <h2>The Founders</h2>
                                 <p>As dedicated human rights activists, we focus our work on social justice causes and offer our consulting skills to:</p>                              
                                 <ul>
-                                    <li>lead civil rights history tours throughout the South</li>
-                                    <li>train youth leaders in non-violent direct action</li>
+                                    <li>lead civil rights history tours throughout the South;</li>
+                                    <li>train youth leaders in non-violent direct action;</li>
                                     <li>
                                         teach organizations how to listen well, respect differences of race,
                                         gender, religion and ideology, and work together effectively with
-                                        people of opposing viewpoints
+                                        people of opposing viewpoints;
                                     </li>
                                     <li>
                                         instruct companies on the beneficial business application of
-                                        equality and diversity
+                                        equality and diversity;
                                     </li>
                                     <li>
                                         and share our firsthand accounts of international civil rights
-                                        campaigns and their memorable key leaders.
+                                        campaigns and their memorable key leaders;
                                     </li>
                                 </ul>
                             </Col>
@@ -67,18 +67,18 @@ export default class About extends Component {
                                     <Col>
                                         <h2>Bob Zellner</h2>
                                         <p>
-                                            In his talks, training and writing Bob Zellner brings to life the victories, struggles and heartbreaks of the Civil Rights era in a way that empowers and instructs audiences and 
-                                            the modern-day movement. Bob presents a modern-day message for combating deep-seated racism, discrimination and prejudice and sparking widespread social change. 
+                                            In his talks, training and writing, Bob Zellner brings to life the victories, struggles and heartbreaks of the civil rights era in a way that empowers and instructs audiences and 
+                                            today's movement. Bob presents a modern-day message for combating deep-seated racism, discrimination and prejudice and sparking widespread social change. 
                                         </p>
                                         <p>
-                                            Bob is one of the key leaders in the Civil Rights Movement, from the 1960s to today. The son and grandson of Ku Klux Klan members, 
+                                            Bob is an active leader in the Civil Rights Movement, from the 1960s to today. The son and grandson of Ku Klux Klan members, 
                                             he risked his life – and nearly lost it – many times in the fight to achieve The Second Emancipation. As an organizer of The Freedom Rides of 1961 
-                                            and the first white southerner to serve as field secretary for the Student Nonviolent Coordinating Committee, he worked alongside Martin Luther King, Jr., 
+                                            and the first white southerner to serve as field secretary for the (SNCC) Student Nonviolent Coordinating Committee, he worked alongside Martin Luther King, Jr., 
                                             John Lewis, Rosa Parks and many other civil rights leaders. Famous for battles with the KKK, segregationist lynch mobs, and violent police, 
-                                            he is now the individual that a new generation turns to with questions on the racial, historical and cultural assumptions on which they were raised, 
+                                            he is now one of the key individuals that a new generation turns to with questions on the racial, historical and cultural assumptions on which they were raised, 
                                             as they ask themselves, "What is my place in this struggle?"
                                         </p>
-
+                                        <br/>
                                         <Timeline align={"left"} className="s-margin-t">
                                             <Timeline.Item>
                                                 <b className="display-block">2020</b>
@@ -90,7 +90,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2020</b>
-                                                <p>Project Pilgrimage, Traveling Historian on Biannual Civil Rights tours, since 2007, <a href="https://www.projectpilgrimage.org" target="_blank" rel="noopener noreferrer">www.projectpilgrimage.org</a></p>
+                                                <p>Project Pilgrimage, Traveling Historian on Biannual civil rights tours, since 2007, <a href="https://www.projectpilgrimage.org" target="_blank" rel="noopener noreferrer">www.projectpilgrimage.org</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2020</b>
@@ -98,7 +98,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2019</b>
-                                                <p>Consultant for Son of the South, film based on autobiography, The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement</p>
+                                                <p>Consultant for <i>Son of the South</i>, film based on autobiography, <i>The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement</i></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2019</b>
@@ -126,7 +126,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2009</b>
-                                                <p>Lillian Smith Book award for The Wrong Side of Murder Creek <a href="https://www.youtube.com/watch?v=kTnl5DCDEqM" target="_blank" rel="noopener noreferrer">View video of Bob receiving award</a></p>
+                                                <p>Lillian Smith Book award for <i>The Wrong Side of Murder Creek</i> <a href="https://www.youtube.com/watch?v=kTnl5DCDEqM" target="_blank" rel="noopener noreferrer">View video of Bob receiving award</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2003</b>

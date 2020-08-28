@@ -80,3 +80,22 @@ input.reduced {
   .s-btn-success:hover, .s-btn-success:active, .s-btn-success:focus {
     background: #269900;
   }
+
+
+  .s-btn-success-inv {
+    outline: 0;
+    background: white;
+    width: auto;
+    border: 1px solid #269900;
+    padding: 10px 30px 10px 30px;
+    color: #269900;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+  .s-btn-success-inv:hover, .s-btn-success-inv:active, .s-btn-success-inv:focus {
+    background: #269900;
+    color: white;
+  }

@@ -35,7 +35,13 @@ export default class Home extends Component {
                                 <Col sm={12} md={8} lg={10} className="s-margin-t-b">
                                     <h4><i>Wrong Side of Murder Creek</i></h4>
                                     <p>“in an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s] story needs to be told; this story needs to be heard.”</p>
-                                    <span>- Maya Angelou</span>
+                                    <a 
+                                        href="https://blairpub.wordpress.com/2010/10/06/maya-angelou-shirley-sherrod-want-to-bring-zellner%e2%80%99s-wrong-side-of-murder-creek-to-the-big-screen/" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        className="text-hover-green grey">
+                                        - Maya Angelou
+                                    </a>
                                 </Col>
                             </Row>
                         </Grid>
@@ -49,7 +55,7 @@ export default class Home extends Component {
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/presentation.png")} alt="presentation" className="small responsive center m-padding-t-b" />
                                 <h3>Lectures</h3>
-                                <p>We can come give a detailed lecture on Civil Rights for any event, big or small.</p>
+                                <p>We can come give a detailed lecture on civil rights for any event, big or small.</p>
                             </Col>
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/conversation.png")} alt="conversation" className="small responsive center m-padding-t-b" />
@@ -59,7 +65,7 @@ export default class Home extends Component {
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/tour.png")} alt="tour" className="small responsive center m-padding-t-b" />
                                 <h3>Tour Guide</h3>
-                                <p>We can come to your location and act as a traveling Civil Rights activists to tour any location.</p>
+                                <p>We can come to your location and act as a traveling civil rights activists to tour any location.</p>
                             </Col>
                         </Row>
                     </Grid>
@@ -69,13 +75,13 @@ export default class Home extends Component {
                         <div className="hero-text-2 center-text">
                             <h1 className="sm-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
                             <div className="event-border">
-                                <h2>Son of the South to Premier at American Black Film Festival</h2>
-                                <h4><u>When</u>: Wednesday, August 26th at 8pm EST</h4>
+                                <h2><i>Son of the South</i> Premiere: American Black Film Festival in Miami</h2>
+                                <h4><u>When</u>: Wednesday, August 26, 2020; 8pm EST</h4>
                                 <br/>
                                 <hr/>
                                 <br/>
                                 <h3>
-                                    Conversations with Bob Zellner about Two Nation-Defining Demagogues
+                                    Conversations with Bob Zellner on 2 Nation-Defining Demagogues
                                 </h3>
                                 <h4><u>When</u>:</h4>
                                 <div>

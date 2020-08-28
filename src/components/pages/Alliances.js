@@ -44,9 +44,9 @@ export default class Alliances extends Component {
                                     <h2 className="s-margin-b">Project Pilgrimage</h2>
                                     <p>
                                         Bob and Pamela travel biannually with Project Pilgrimage a civil rights tour from Seattle. Citizens and students from the Seattle area travel through 
-                                        the deep south to significant places that transformed America during the Civil rights Movement of the 1950’s and 60’s. Such as, Money Mississippi were 
+                                        the deep south to significant places that transformed America during the Civil Rights Movement of the 1950’s and 60’s. Such as, Money Mississippi were 
                                         Emmett Till was murdered, eji, Equal Justice Initiative, in Montgomery, the Edmund Pettus bridge, the Home of Medgar Evers and Philadelphia Mississippi 
-                                        where the three young Civil Rights organizers were lynched in 1964.
+                                        where the three young civil rights organizers were lynched in 1964.
                                     </p>
                                     <br/>
                                     <a href={`https://projectpilgrimage.org/`} rel="noopener noreferrer" target="_blank">

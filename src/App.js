@@ -21,7 +21,7 @@ import 'rsuite/dist/styles/rsuite-default.css'
 
 function App() {
   return (
-    <ToastProvider placement="bottom-center" autoDismiss={true}>
+    <ToastProvider placement="top-center" autoDismiss={true}>
       <Router history={history}>
         <Header />
         <Routes />
