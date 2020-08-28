@@ -60,15 +60,15 @@ export default class Events extends Component {
                     <div className="s-padding-t-b">
                         <h4>HOW TO SIGN FOR THE VIRTUAL ABFF:</h4>
                         <ol>
-                            <li>Go to festival website at <a href="https://www.abff.com" target="_blank" rel="noopener noreferrer">www.abff.com</a></li>
-                            <li>Follow the “Register Free Now” prompt</li>
-                            <li>Select “ Community Pass”</li>
-                            <li>Input Name, address etc</li>
-                            <li>Press submit and you’re on the platform</li>
-                            <li><i>Son of the South</i> will play live on the homepage at 8 pm EST and will be available for a total of four hours because its removed. We do this in case anyone joins the screening late they’ll have the ability to start from the beginning.</li>
+                            <li>Go to festival website at <a href="https://www.abff.com" target="_blank" rel="noopener noreferrer">www.abff.com</a>.</li>
+                            <li>Follow the “Register Free Now” prompt.</li>
+                            <li>Select “ Community Pass”.</li>
+                            <li>Input Name, address etc.</li>
+                            <li>Press submit and you’re on the platform.</li>
+                            <li><i>Son of the South</i> will play live on the homepage at 8 pm EST and will be available for a total of four hours before it’s removed. We do this in case anyone joins the screening late, they’ll have the ability to start from the beginning.</li>
                         </ol>
                         <br/>
-                        <h4>POST SCREENING Q &amp; A WILL TAKE PLACE ON INSTAGRAM, ON IGTV - details to follow </h4>
+                        <h4>POST SCREENING Q&amp;A WILL TAKE PLACE ON INSTAGRAM, ON IGTV</h4>
                         <p>@barryalexanderbrown | @sonofthesouthfilm | @americanblackfilmfestival</p>
                     </div>
 

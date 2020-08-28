@@ -10,7 +10,7 @@ export default class Alliances extends Component {
                     <title>Alliances | Smith-Zellner Consulting</title>
                 </Helmet>
                 <h1>Alliances</h1>
-                <p>Smith-Zellner Consulting has partnered with many great organizations and groups around the nation over the years. Here are a few of our partnerships!</p>
+                <p>Smith-Zellner Consulting allies with many great organizations and groups around the nation over the years. Here are a few of our partnerships!</p>
                 <Grid fluid className="s-margin-t">
                     <Row className="m-margin-b">
                         <Col sm={12} md={4} lg={2} className="box-text-v-align">
@@ -22,8 +22,7 @@ export default class Alliances extends Component {
                                 <Col>
                                     <h2 className="s-margin-b">Common Power</h2>
                                     <p>
-                                        Common Power mobilizes volunteers for voters around the country, while investing in the next generation of leaders and building lasting community. 
-                                        Because they believe the power of the vote should be shared by all.
+                                        Common Power mobilizes volunteers for the rights of voters around the country, while investing in the next generation of leaders and building lasting community because they believe the power of the vote should be shared by all.
                                     </p>
                                     <br/>
                                     <a href={`https://commonpower.org/`} rel="noopener noreferrer" target="_blank">
@@ -43,10 +42,10 @@ export default class Alliances extends Component {
                                 <Col>
                                     <h2 className="s-margin-b">Project Pilgrimage</h2>
                                     <p>
-                                        Bob and Pamela travel biannually with Project Pilgrimage a civil rights tour from Seattle. Citizens and students from the Seattle area travel through 
-                                        the deep south to significant places that transformed America during the Civil Rights Movement of the 1950’s and 60’s. Such as, Money Mississippi were 
-                                        Emmett Till was murdered, eji, Equal Justice Initiative, in Montgomery, the Edmund Pettus bridge, the Home of Medgar Evers and Philadelphia Mississippi 
-                                        where the three young civil rights organizers were lynched in 1964.
+                                        Bob and Pamela travel biannually with Project Pilgrimage, a civil rights tour from Seattle. Citizens and students from the Seattle area travel through 
+                                        the deep south to key places where significant events transformed America during the Civil Rights Movement of the 1950s and 60s. Sites include Money, Mississippi 
+                                        where Emmett Till was murdered; Equal Justice Initiative (EJI) in Montgomery, Alabama; Selma, AL’s Edmund Pettus Bridge; the Jackson, Mississippi home of 
+                                        Medgar Evers; and Philadelphia, Mississippi where three young civil rights organizers were lynched in 1964.
                                     </p>
                                     <br/>
                                     <a href={`https://projectpilgrimage.org/`} rel="noopener noreferrer" target="_blank">
@@ -88,7 +87,7 @@ export default class Alliances extends Component {
                                     <h2 className="s-margin-b">Shirts Across America</h2>
                                     <p>
                                         Shirts Across America (SAA) is a youth leadership organization from Seattle. This exemplary group has been sending teams of young people to New Orleans since 2007 
-                                        to help in the reconstruction of the 9th ward following hurricane Katrina. They have financed 16 homes and helped in the rebuilding of 200. Pamela and Bob work 
+                                        to help in the reconstruction of the 9th Ward following hurricane Katrina. They have financed 16 homes and helped in the rebuilding of 200. Pamela and Bob work 
                                         with SAA leadership striving to give youth the tools they need to effectively and safely help create change in our current volatile political climate.
                                     </p>
                                     <br/>
@@ -109,7 +108,7 @@ export default class Alliances extends Component {
                                 <Col>
                                     <h2 className="s-margin-b">Senator Doug Jones</h2>
                                     <p>
-                                        Bob and Pamela are currently working to reelect Congressman, Doug Jones as US senator from Alabama.
+                                        Bob and Pamela are currently working to re-elect Congressman, Doug Jones as US senator from Alabama.
                                     </p>
                                     <br/>
                                     <a href={`https://www.jones.senate.gov/`} rel="noopener noreferrer" target="_blank">

@@ -85,24 +85,24 @@ export default class About extends Component {
                                                 <p>SAA (Shirts Across America) Youth leadership organization, organizational consultant, <a href="http://www.shirtsacrossamerica.org" target="_blank" rel="noopener noreferrer">www.shirtsacrossamerica.org</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">2020</b>
                                                 <p>Common Power, <a href="https://www.commonpower.org" target="_blank" rel="noopener noreferrer">www.commonpower.org</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">2020</b>
-                                                <p>Project Pilgrimage, Traveling Historian on Biannual civil rights tours, since 2007, <a href="https://www.projectpilgrimage.org" target="_blank" rel="noopener noreferrer">www.projectpilgrimage.org</a></p>
+                                                <p>Project Pilgrimage, Traveling Historian on Biannual civil rights tours since 2007, <a href="https://www.projectpilgrimage.org" target="_blank" rel="noopener noreferrer">www.projectpilgrimage.org</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">2020</b>
                                                 <p>Faith &amp; Politics Congressional Tours, Featured Speaker since 2005, <a href="https://www.faithandpolitics.org" target="_blank" rel="noopener noreferrer">www.faithandpolitics.org.org</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2019</b>
-                                                <p>Consultant for <i>Son of the South</i>, film based on autobiography, <i>The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement</i></p>
+                                                <p>Consultant for <i>Son of the South</i>, film based on Bob's autobiography, <i>The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement</i></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">2019</b>
                                                 <p>Honorary Doctor of Humane Letters, University of Indianapolis</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">2018-Present</b>
+                                                <p>Co-Founder &amp; Managing Partner, Smith-Zellner Consulting, Fairhope, Alabama</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2016</b>
@@ -110,7 +110,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2015-2014</b>
-                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals with Republican Mayor Adam O’Neal &amp; Bob Zellnere</p>
+                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals with over 100 community members, including Republican Mayor Adam O’Neal &amp; Bob Zellner</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2010-2015</b>
@@ -118,7 +118,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2013</b>
-                                                <p>One Dream Multimedia Project, a Time Magazine issue commemorating 50th anniversary of 1963 March on Washington. Features Bob among other key civil rights activist.</p>
+                                                <p>One Dream Multimedia Project, a Time Magazine issue commemorating 50th anniversary of 1963 March on Washington, features Bob among other key civil rights activists.</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2012</b>
@@ -126,11 +126,11 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2009</b>
-                                                <p>Lillian Smith Book award for <i>The Wrong Side of Murder Creek</i> <a href="https://www.youtube.com/watch?v=kTnl5DCDEqM" target="_blank" rel="noopener noreferrer">View video of Bob receiving award</a></p>
+                                                <p>Lillian Smith Book award for <i>The Wrong Side of Murder Creek</i> - <a href="https://www.youtube.com/watch?v=kTnl5DCDEqM" target="_blank" rel="noopener noreferrer">View video of Bob receiving award</a>.</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2003</b>
-                                                <p>Shinnecock Nation campaign activist to stop bulldozing of ancestral burial grounds, Southampton, N</p>
+                                                <p>Shinnecock Nation campaign activist to stop bulldozing of ancestral burial grounds, Southampton, NY</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2002</b>
@@ -142,15 +142,15 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1980</b>
-                                                <p>GROW (Grass Roots Organizing Work) project organizer in MI, AL LA GA since 1968. Gulf Coast Pulp Wood Association, Woodcutters Union Campaign, project organizer since 1968.</p>
+                                                <p>GROW (Grass Roots Organizing Work) project organizer in MI, AL, LA, GA since 1968. Gulf Coast Pulp Wood Association, Woodcutters Union Campaign, project organizer since 1968.</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1967</b>
-                                                <p>SNCC field secretary, with Rev. Dr. Martin Luther King JR, Rosa Parks, Julian Bond, John Lewis, Fannie Lou Hamer, Kwame Ture (Stokely Carmichael), James Forman, Bayard Rustin, Harry Belafonte, Bob Dylan, Pete Seeger-since 1961</p>
+                                                <p>SNCC field secretary, with Rev. Dr. Martin Luther King, Jr., Rosa Parks, Julian Bond, John Lewis, Fannie Lou Hamer, Kwame Ture (Stokely Carmichael), James Forman, Bayard Rustin, Harry Belafonte, Bob Dylan, Pete Seeger-since 1961</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1961</b>
-                                                <p>Counselor preparing students to enter integrated classrooms in the fall</p>
+                                                <p>Counselor in Mississippi preparing students to enter integrated classrooms in the fall</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1961</b>
@@ -183,11 +183,13 @@ export default class About extends Component {
                                                 <p>Co-Founder &amp; Managing Partner, Smith-Zellner Consulting, Fairhope, Alabama</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
+                                                <p>Traveling Historian on Project Pilgrimage civil rights tours</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
                                                 <b className="display-block">2014-2018</b>
                                                 <p>Nurse’s Aide, In-home Palliative Care, Boulder, Colorado, Nurse’s Aide</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">2014-2018</b>
                                                 <p>Nurse’s Aide, Dignity Care Boulder, Colorado, <a href="https://www.dignitycare.com" target="_blank" rel="noopener noreferrer">www.dignitycare.com</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
@@ -228,7 +230,7 @@ export default class About extends Component {
                     <hr/>
                     <br/>
                     <div className="center-text">
-                        <h4>We'd love to credit our beautiful black &amp; white shots of Bob Zellner we are using around the website to Danny Lyons @ <a href="https://bleakbeauty.com/" target="_blank" rel="noopener noreferrer">bleakbeauty.com</a></h4>
+                        <h4>PHOTO CREDITS:  <u>Homepage</u> - Top: Richard Avedon; Bottom: Danny Lyons – <u>About page</u> - Color cameos: Stephen Savage; Bottom: Richard Avedon.</h4>
                     </div>
                     <br/>
                     <hr/>
