@@ -372,6 +372,16 @@ hr {
     }
 }
 
+.black-hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    width: 50%;
+    border-top: 1px solid black;
+    margin: 2.5% auto 20px auto;
+    padding: 0; 
+}
+
 
 /* Quote */
 .quote-card {

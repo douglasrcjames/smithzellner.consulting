@@ -41,7 +41,9 @@ export default class Home extends Component {
                         </a>
                     </cite>
                 </blockquote>
-
+                <br/>
+                <hr className="black-hr"/>
+                
                 <div className="l-container sm-padding-t-b">
                     <h1>What We Offer</h1>
                     <Grid fluid>
