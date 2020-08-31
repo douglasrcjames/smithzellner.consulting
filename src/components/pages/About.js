@@ -16,13 +16,6 @@ export default class About extends Component {
                         <Row>
                             <Col sm={12} md={8} lg={10}>
                                 <h1>About Smith-Zellner Consulting</h1>
-                                <p>
-                                    Our goal is to raise our collective consciousness by facilitating the healing of our racial and genocidal national history. 
-                                    Through the lens of our collective history, we aim to demonstrate how to respect differences of race, gender, religion and ideology. 
-                                    Through listening to our neighbors and fellow citizens, we search for the common threads that bind us into this vibrant weave of many colors.
-                                </p>
-                                <br/>
-                                <h2>The Founders</h2>
                                 <p>As dedicated human rights activists, we focus our work on social justice causes and offer our consulting skills to:</p>                              
                                 <ul>
                                     <li>lead civil rights history tours throughout the South;</li>
@@ -38,9 +31,25 @@ export default class About extends Component {
                                     </li>
                                     <li>
                                         and share our firsthand accounts of international civil rights
-                                        campaigns and their memorable key leaders;
+                                        campaigns and their memorable key leaders.
                                     </li>
                                 </ul>
+
+                                <br/>
+                                <h2>The Founders</h2>
+                                <p>
+                                    Our goal is to help raise our collective human consciousness by facilitating the healing of our racial and genocidal history.
+                                    Through the lens of our shared history, we aim to demonstrate how to respect differences of race, gender, religion and ideology. 
+                                    Through listening to our neighbors and fellow citizens, we search for the common threads that bind us into this vibrant weave of many colors.
+                                </p>
+                                <p>
+                                    Bob remains an active leader in the Civil Rights Movement, from the 1960s to today. The son and grandson of Ku Klux Klan members, 
+                                    he risked his life – and nearly lost it – many times in the fight to achieve The Second Emancipation. As an organizer of The Freedom Rides of 1961 
+                                    and the first white southerner to serve as field secretary for the Student Nonviolent Coordinating Committee (SNCC), he worked alongside Ella Baker, Martin Luther King, Jr., 
+                                    John Lewis, Rosa Parks, Diane Nash, Julian Bond, Fannie Lou Hamer and many other civil rights leaders. Famous for battles with the KKK, segregationist lynch mobs, and violent police, 
+                                    he is now one of the key individuals that a new generation turns to with questions on the racial, historical and cultural assumptions on which they were raised, 
+                                    as they ask themselves, "What is my place in this struggle?"
+                                </p>
                             </Col>
                             
                             <Col sm={12} md={4} lg={2}>
@@ -68,15 +77,7 @@ export default class About extends Component {
                                         <h2>Bob Zellner</h2>
                                         <p>
                                             In his talks, training and writing, Bob Zellner brings to life the victories, struggles and heartbreaks of the civil rights era in a way that empowers and instructs audiences and 
-                                            today's movement. Bob presents a modern-day message for combating deep-seated racism, discrimination and prejudice and sparking widespread social change. 
-                                        </p>
-                                        <p>
-                                            Bob is an active leader in the Civil Rights Movement, from the 1960s to today. The son and grandson of Ku Klux Klan members, 
-                                            he risked his life – and nearly lost it – many times in the fight to achieve The Second Emancipation. As an organizer of The Freedom Rides of 1961 
-                                            and the first white southerner to serve as field secretary for the (SNCC) Student Nonviolent Coordinating Committee, he worked alongside Martin Luther King, Jr., 
-                                            John Lewis, Rosa Parks and many other civil rights leaders. Famous for battles with the KKK, segregationist lynch mobs, and violent police, 
-                                            he is now one of the key individuals that a new generation turns to with questions on the racial, historical and cultural assumptions on which they were raised, 
-                                            as they ask themselves, "What is my place in this struggle?"
+                                            today's movement. Bob presents a modern-day message for combating deep-seated racism, discrimination and prejudice and help spark widespread social change. 
                                         </p>
                                         <br/>
                                         <Timeline align={"left"} className="s-margin-t">
@@ -91,11 +92,11 @@ export default class About extends Component {
                                                 <p>Project Pilgrimage, Traveling Historian on Biannual civil rights tours since 2007, <a href="https://www.projectpilgrimage.org" target="_blank" rel="noopener noreferrer">www.projectpilgrimage.org</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <p>Faith &amp; Politics Congressional Tours, Featured Speaker since 2005, <a href="https://www.faithandpolitics.org" target="_blank" rel="noopener noreferrer">www.faithandpolitics.org.org</a></p>
+                                                <p>Faith &amp; Politics Congressional Tours, Featured Speaker since 2005, <a href="https://www.faithandpolitics.org" target="_blank" rel="noopener noreferrer">www.faithandpolitics.org</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2019</b>
-                                                <p>Consultant for <i>Son of the South</i>, film based on Bob's autobiography, <i>The Wrong Side of Murder Creek: A White Southerner in the Freedom Movement</i></p>
+                                                <p>Consultant for <i>Son of the South</i>, film based on Bob's autobiography, <i>The Wrong Side of Murder Creek</i></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <p>Honorary Doctor of Humane Letters, University of Indianapolis</p>
@@ -109,12 +110,12 @@ export default class About extends Component {
                                                 <p>Volunteer Doug Jones Campaign, AL</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">2015-2014</b>
-                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals with over 100 community members, including Republican Mayor Adam O’Neal &amp; Bob Zellner</p>
+                                                <b className="display-block">2014-2015</b>
+                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals with over 100 community members, including Republican Mayor Adam O’Neal &amp; Rev. William Barber</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2010-2015</b>
-                                                <p>Moral Mondays Movement with Reverend William Barber, NC</p>
+                                                <p>Moral Mondays Movement with Rev. William Barber, NC</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2013</b>
@@ -126,7 +127,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2009</b>
-                                                <p>Lillian Smith Book award for <i>The Wrong Side of Murder Creek</i> - <a href="https://www.youtube.com/watch?v=kTnl5DCDEqM" target="_blank" rel="noopener noreferrer">View video of Bob receiving award</a>.</p>
+                                                <p>Lillian Smith Book award for <i>The Wrong Side of Murder Creek</i> - <a href="https://www.youtube.com/watch?v=kTnl5DCDEqM" target="_blank" rel="noopener noreferrer">Video of Bob receiving award</a></p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2003</b>
@@ -142,23 +143,21 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1980</b>
-                                                <p>GROW (Grass Roots Organizing Work) project organizer in MI, AL, LA, GA since 1968. Gulf Coast Pulp Wood Association, Woodcutters Union Campaign, project organizer since 1968.</p>
+                                                <p>GROW (Grass Roots Organizing Work) project organizer in MI, AL, LA, GA since 1968. Gulf Coast Pulp Wood Association, Woodcutters Union Campaign.</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1967</b>
-                                                <p>SNCC field secretary, with Rev. Dr. Martin Luther King, Jr., Rosa Parks, Julian Bond, John Lewis, Fannie Lou Hamer, Kwame Ture (Stokely Carmichael), James Forman, Bayard Rustin, Harry Belafonte, Bob Dylan, Pete Seeger-since 1961</p>
+                                                <p>SNCC field secretary since 1961, with Ella Baker, Rev. Dr. Martin Luther King, Jr., Rosa Parks, Julian Bond, John Lewis, Fannie Lou Hamer, Kwame Ture (Stokely Carmichael), James Forman, Bayard Rustin, Harry Belafonte, Bob Dylan, Pete Seeger</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1961</b>
                                                 <p>Counselor in Mississippi preparing students to enter integrated classrooms in the fall</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">1961</b>
-                                                <p>Trainee, Non-Violence Workshops lead by Jim Lawson, John Lewis, Diane Nash in Nashville, TN</p>
+                                                <p>Trainee, Non-Violence Workshops led by Jim Lawson, John Lewis, Diane Nash in Nashville, TN</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <b className="display-block">1961</b>
-                                                <p>BA in Sociology &amp; Psychology, Huntingdon College, Montgomery, AL</p>
+                                                <p>BA, Sociology/Psychology, Huntingdon College, Montgomery, AL</p>
                                             </Timeline.Item>
                                         </Timeline>
                                     </Col>
@@ -180,14 +179,14 @@ export default class About extends Component {
                                         <Timeline align={"left"} className="s-margin-t">
                                             <Timeline.Item>
                                                 <b className="display-block">2018-Present</b>
-                                                <p>Co-Founder &amp; Managing Partner, Smith-Zellner Consulting, Fairhope, Alabama</p>
+                                                <p className="no-padding">Co-Founder &amp; Managing Partner, Smith-Zellner Consulting, Fairhope, Alabama</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <p>Traveling Historian on Project Pilgrimage civil rights tours</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2014-2018</b>
-                                                <p>Nurse’s Aide, In-home Palliative Care, Boulder, Colorado, Nurse’s Aide</p>
+                                                <p>Nurse’s Aide, In-home Palliative Care, Boulder, Colorado</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <p>Nurse’s Aide, Dignity Care Boulder, Colorado, <a href="https://www.dignitycare.com" target="_blank" rel="noopener noreferrer">www.dignitycare.com</a></p>
@@ -230,7 +229,7 @@ export default class About extends Component {
                     <hr/>
                     <br/>
                     <div className="center-text">
-                        <h4>PHOTO CREDITS:  <u>Homepage</u> - Top: Richard Avedon; Bottom: Danny Lyons – <u>About page</u> - Color cameos: Stephen Savage; Bottom: Richard Avedon.</h4>
+                        <h4>PHOTO CREDITS: <u>Home Page</u> - Danny Lyons; <u>About Page</u> - Color Cameos: Stephen Savage; Bottom, Richard Avedon; <u>Contact page</u> – Richard Avedon</h4>
                     </div>
                     <br/>
                     <hr/>

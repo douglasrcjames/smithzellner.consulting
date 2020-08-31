@@ -22,7 +22,7 @@ export default class Events extends Component {
                 </Helmet>
                 <h1>Upcoming Events</h1>
 
-                <h4>To book any event, please contact Dustin L. Jones, Keppler Speaking Agency at <u>djones@kepplerspeakers.com</u> or (703) 516-4000</h4>
+                <h4><u>TO BOOK AN EVENT</u> <br/> Contact Dustin L. Jones, Keppler Speaking Agency at <u>djones@kepplerspeakers.com</u> or (703) 516-4000</h4>
 
                 <hr/>
                 <br/>
@@ -35,8 +35,6 @@ export default class Events extends Component {
                 
                 <p>Bob Zellner will have a discussion around his life's work and his movie <i>Son of the South</i> at St. Francis Springs, Stoneville, North Carolina.</p> 
                 <p>For more information, please call St. Francis Springs at (336) 573-3751</p> ​
-
-
 
 
                 <br/>

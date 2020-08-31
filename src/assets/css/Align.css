@@ -315,6 +315,10 @@ body {
     padding: 1% 0 1% 0;
 }
 
+.sm-padding-t-b {
+    padding: 2.5% 0 2.5% 0;
+}
+
 .m-padding {
     padding: 5%;
 }

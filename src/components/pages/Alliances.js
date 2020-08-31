@@ -10,7 +10,7 @@ export default class Alliances extends Component {
                     <title>Alliances | Smith-Zellner Consulting</title>
                 </Helmet>
                 <h1>Alliances</h1>
-                <p>Smith-Zellner Consulting allies with many great organizations and groups around the nation over the years. Here are a few of our partnerships!</p>
+                <p>Smith-Zellner Consulting allies with many great organizations and groups. Here are a few of our partnerships!</p>
                 <Grid fluid className="s-margin-t">
                     <Row className="m-margin-b">
                         <Col sm={12} md={4} lg={2} className="box-text-v-align">
@@ -108,7 +108,7 @@ export default class Alliances extends Component {
                                 <Col>
                                     <h2 className="s-margin-b">Senator Doug Jones</h2>
                                     <p>
-                                        Bob and Pamela are currently working to re-elect Congressman, Doug Jones as US senator from Alabama.
+                                        Bob and Pamela are currently working to re-elect Doug Jones as US Senator from Alabama.
                                     </p>
                                     <br/>
                                     <a href={`https://www.jones.senate.gov/`} rel="noopener noreferrer" target="_blank">
