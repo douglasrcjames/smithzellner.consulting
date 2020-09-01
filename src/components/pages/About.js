@@ -77,7 +77,7 @@ export default class About extends Component {
                                         <h2>Bob Zellner</h2>
                                         <p>
                                             In his talks, training and writing, Bob Zellner brings to life the victories, struggles and heartbreaks of the civil rights era in a way that empowers and instructs audiences and 
-                                            today's movement. Bob presents a modern-day message for combating deep-seated racism, discrimination and prejudice and help spark widespread social change. 
+                                            today's movement. Bob presents a modern-day message for combatting deep-seated racism and discrimination to help spark positive widespread social change.
                                         </p>
                                         <br/>
                                         <Timeline align={"left"} className="s-margin-t">
@@ -111,7 +111,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2014-2015</b>
-                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals with over 100 community members, including Republican Mayor Adam O’Neal &amp; Rev. William Barber</p>
+                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals - with over 100 community members, including Republican Mayor Adam O’Neal &amp; Rev. William Barber</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2010-2015</b>
@@ -229,7 +229,7 @@ export default class About extends Component {
                     <hr/>
                     <br/>
                     <div className="center-text">
-                        <h4>PHOTO CREDITS: <u>Home Page</u> - Danny Lyons; <u>About Page</u> - Color Cameos: Stephen Savage; Bottom, Richard Avedon; <u>Contact page</u> – Richard Avedon</h4>
+                        <h4>PHOTO CREDITS: <u>Home Page</u> - Danny Lyons; <u>About Page</u> - Color Cameos: Stephen Savage; Bottom: Richard Avedon; <u>Contact page</u> – Richard Avedon</h4>
                     </div>
                     <br/>
                     <hr/>

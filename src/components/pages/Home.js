@@ -26,11 +26,7 @@ export default class Home extends Component {
                     </div>
                 </div>
 
-                <blockquote class="quote-card">
-                    <p>
-                        In an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s] story needs to be told; this story needs to be heard.
-                    </p>
-
+                <blockquote className="quote-card">
                     <cite>
                         <a 
                             href="https://blairpub.wordpress.com/2010/10/06/maya-angelou-shirley-sherrod-want-to-bring-zellner%e2%80%99s-wrong-side-of-murder-creek-to-the-big-screen/" 
@@ -40,6 +36,9 @@ export default class Home extends Component {
                             From Maya Angelou
                         </a>
                     </cite>
+                    <p>
+                        In an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s] story needs to be told; this story needs to be heard.
+                    </p>
                 </blockquote>
                 <br/>
                 <hr className="black-hr"/>
@@ -65,6 +64,7 @@ export default class Home extends Component {
                             </Col>
                         </Row>
                     </Grid>
+                    <br/>
                 </div>
                 <div className="hero-container-2">
                     <div className="hero-image-2">

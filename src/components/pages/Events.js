@@ -27,11 +27,11 @@ export default class Events extends Component {
                 <hr/>
                 <br/>
 
-                <h3>
+                <h4>
                     <u>SPEAKING ENGAGEMENT</u>
                     <br/>
                     Friday, November 20th - Sunday, November 22nd
-                </h3>
+                </h4>
                 
                 <p>Bob Zellner will have a discussion around his life's work and his movie <i>Son of the South</i> at St. Francis Springs, Stoneville, North Carolina.</p> 
                 <p>For more information, please call St. Francis Springs at (336) 573-3751</p> ​

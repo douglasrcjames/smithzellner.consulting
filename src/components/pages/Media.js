@@ -38,7 +38,7 @@ export default class Media extends Component {
                                     <Row end="sm" center="xs">
                                         <Col>
                                             <a href="https://www.libs.uga.edu/hargrett/lilliansmith/winners.html" target="_blank" rel="noopener noreferrer">
-                                                <img src={require("../../assets/images/misc/LillianSmith.jpg")} alt="award" className="small responsive" />
+                                                <img src={require("../../assets/images/misc/LillianSmith.jpg")} alt="award" className="responsive" style={{ width: "75px"}} />
                                             </a>
                                         </Col>
                                     </Row>
@@ -168,12 +168,13 @@ export default class Media extends Component {
                                     <h2 className="no-margin"><i>Let the People Decide</i></h2>
                                     <p>
                                         Bob Zellner is featured in this documentary and recommends it as a great film to watch about voting rights. 
-                                    </p>
-                                    <p>
                                         <i>Let the People Decide</i> traces the history of voting rights struggles in the United States from 1960 through the present day. 
                                         The film draws parallels between the Mississippi voter registration drive of the early 1960s and North Carolina's Moral Mondays
                                         movement in the present day. A key goal of the film is connecting the dots between the generations to contextualize the current 
-                                        political environment surrounding race and voting. In three acts, the film travels across nearly 60 years to show how the current 
+                                        political environment surrounding race and voting.
+                                    </p>
+                                    <p>
+                                        In three acts, the film travels across nearly 60 years to show how the current 
                                         battles over voting are not a new front in the struggle over who gets to vote, but part of a continuing conflict that goes back many decades. 
                                         Now as then, both sides claim the moral high ground. In the 1960s, race was the clear driving force of the conflict; today the issue is couched is 
                                         couched in claims of fraud and suppression. Political parties have drawn lines in the sand and this project will present arguments from all 

@@ -385,7 +385,6 @@ hr {
 
 /* Quote */
 .quote-card {
-    background: white;
     color: #222222;
     
     padding: 20px;
@@ -429,15 +428,15 @@ hr {
     font-family: "CrimsonText-Regular";
     content: "”";
     position: absolute;
-    bottom: -110px;
+    bottom: -40px;
     line-height: 100px;
-    right: 50px;
-    font-size: 20em;
+    right: 200px;
+    font-size: 5em;
     color: rgba(#eee, 0.8);
     font-weight: normal;
   }
 
-  @media(max-width: 640px) {
+  @media(max-width: 900px) {
     .quote-card {
         padding: 10px;
         padding-left: 15px;
