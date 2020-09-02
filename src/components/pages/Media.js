@@ -23,13 +23,16 @@ export default class Media extends Component {
                                     <h3><i>A White Southerner in the Freedom Movement</i></h3>
                                     
                                     <p>
-                                        Even forty years after the civil rights movement, the transition from son and grandson of Klansmen to field secretary of SNCC seems quite a journey. 
-                                        In the early 1960s, when Bob Zellner’s professors and classmates at a small church school in Alabama thought he was crazy for even wanting to do research 
-                                        on civil rights, it was nothing short of remarkable. Now, in his long-awaited memoir, Zellner tells how a young, white Alabamian joined ranks with the black 
-                                        students who were sitting-in, marching, fighting, and sometimes dying to challenge the Southern “way of life” he had been raised on but rejected. Decades 
-                                        later, Bob is still protesting on behalf of social change and equal rights. Fortunately, he took the time, with co-author Constance Curry, to write down 
-                                        his memories and reflections. He was in almost all the campaigns and was close to all the major figures. He was beaten, arrested, and reviled by 
-                                        some but admired and revered by others.
+                                        In his long-awaited memoir, Bob Zellner tells how - as a teenage, white, Alabama
+                                        son and grandson of Ku Klux Klansmen – he changed his point of view and
+                                        joined ranks with the black students who were sitting-in, marching, fighting and
+                                        sometimes dying to challenge the “Southern way of life”. As the first white field
+                                        secretary of SNCC (Student Nonviolent Coordinating Committee), Bob worked in
+                                        many early civil rights campaigns close to all the major figures. Beaten, arrested,
+                                        and reviled by some, he became admired by others. Decades later, Bob is still
+                                        protesting on behalf of equal rights and social change. With co-author Constance
+                                        Curry, Bob has recorded his remarkable memories and reflections of these
+                                        historic events.
                                     </p>
                                 </Col>
                             </Row>

@@ -405,19 +405,24 @@ hr {
     max-width: 80%;
   }
   
-  .quote-card cite {
-    font-size: 16px;
+  .quote-card cite a {
+    font-size: 24px;
+    color: black;
     margin-top: 10px;
-    display: block;
     font-weight: 200;
     opacity: 0.8;
   }
+
+  .quote-card cite a:hover {
+    color: #33CC00  !important;
+    cursor: pointer;
+}
   
   .quote-card:before {
     font-family: "CrimsonText-Regular";
     content: "“";
     position: absolute;
-    top: 10px;
+    top: 35px;
     left: 10px;
     font-size: 5em;
     color: rgba(#eee, 0.8);
@@ -439,13 +444,13 @@ hr {
   @media(max-width: 900px) {
     .quote-card {
         padding: 10px;
-        padding-left: 15px;
+        padding-left: 30px;
         margin: 45px 15px 45px 15px;
     }
 
     .quote-card:before {
-        top: -45px;
-        left: 0px;
+        top: 25px;
+        left: -3px;
         font-size: 5em;
     }
 

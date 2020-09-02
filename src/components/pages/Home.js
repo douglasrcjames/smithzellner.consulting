@@ -32,7 +32,7 @@ export default class Home extends Component {
                             href="https://blairpub.wordpress.com/2010/10/06/maya-angelou-shirley-sherrod-want-to-bring-zellner%e2%80%99s-wrong-side-of-murder-creek-to-the-big-screen/" 
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className="l-text text-hover-green dark-grey">
+                            className="text-hover-green">
                             From Maya Angelou
                         </a>
                     </cite>
@@ -60,7 +60,7 @@ export default class Home extends Component {
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/tour.png")} alt="tour" className="home-icon responsive center m-padding-t-b" />
                                 <h3>Tour Guide</h3>
-                                <p>We can come to your location and act as a traveling civil rights activists to tour any location.</p>
+                                <p>We can come to your location and provide civil rights tours to various locations.</p>
                             </Col>
                         </Row>
                     </Grid>
