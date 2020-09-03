@@ -179,9 +179,9 @@ export default class Media extends Component {
                                     <p>
                                         In three acts, the film travels across nearly 60 years to show how the current 
                                         battles over voting are not a new front in the struggle over who gets to vote, but part of a continuing conflict that goes back many decades. 
-                                        Now as then, both sides claim the moral high ground. In the 1960s, race was the clear driving force of the conflict; today the issue is couched is 
-                                        couched in claims of fraud and suppression. Political parties have drawn lines in the sand and this project will present arguments from all 
-                                        sides in order that the film can live up to it's name and <i>Let the People Decide</i>.
+                                        Now as then, both sides claim the moral high ground. In the 1960s, race was the clear driving force of the conflict; today the issue is couched 
+                                        in claims of fraud and suppression. Political parties have drawn lines in the sand and this project will present arguments from all 
+                                        sides in order that the film can live up to its name and <i>Let the People Decide</i>.
                                     </p>
                                 </Col>
                             </Row>

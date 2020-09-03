@@ -55,7 +55,7 @@ export default class Home extends Component {
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/conversation.png")} alt="conversation" className="home-icon responsive center m-padding-t-b" />
                                 <h3>Consulting</h3>
-                                <p>We can provide both educational or political consulting for your personal or business requirements.</p>
+                                <p>We can provide both educational &amp; political consulting for your personal or business requirements.</p>
                             </Col>
                             <Col xs={12} sm={4}>
                                 <img src={require("../../assets/images/icons/tour.png")} alt="tour" className="home-icon responsive center m-padding-t-b" />
