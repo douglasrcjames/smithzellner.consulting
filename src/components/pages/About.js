@@ -229,7 +229,7 @@ export default class About extends Component {
                     <hr/>
                     <br/>
                     <div className="center-text">
-                        <h4>PHOTO CREDITS: <u>Home Page</u> - Danny Lyons; <u>About Page</u> - Color Cameos: Stephen Savage; Bottom: Richard Avedon; <u>Contact page</u> – Richard Avedon</h4>
+                        <h4>PHOTO CREDITS: <u>Home Page</u> - Danny Lyon; <u>About Page</u> - Color Cameos: Stephen Savage; Bottom: Richard Avedon; <u>Contact page</u> – Richard Avedon</h4>
                     </div>
                     <br/>
                     <hr/>
