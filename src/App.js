@@ -18,6 +18,7 @@ import "./assets/css/Misc.css";
 import "./assets/css/Hamburger.css";
 import "./assets/css/Forms.css";
 import 'rsuite/dist/styles/rsuite-default.css'
+import 'react-image-lightbox/style.css';
 
 function App() {
   return (

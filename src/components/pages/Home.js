@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { HashLink as Link } from 'react-router-hash-link';
 
 import SubscribeForm from '../misc/SubscribeForm';
+import TextLinkGallery from '../misc/TextLinkGallery';
 
 export default class Home extends Component {
     render() {
@@ -72,13 +73,17 @@ export default class Home extends Component {
                             <h1 className="sm-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
                             <div className="event-border">
                                 <h3>
-                                    <u>SPEAKING ENGAGEMENT</u>
+                                    <u>Hope in the Age of Social Inequality</u>
                                     <br/>
-                                    Friday, November 20th - Sunday, November 22nd
+                                    Saturday, December 12th, 2020, 11am PT / 2pm EST
                                 </h3>
                                 
-                                <p>Bob Zellner will have a discussion around his life's work and his movie <i>Son of the South</i> at St. Francis Springs, Stoneville, North Carolina.</p> 
-                                <p>For more information, please call St. Francis Springs at (336) 573-3751</p> 
+                                <p>
+                                    This is a free webinar featuring speakers Sandy Hudson, Bob Zellner, Rana Abdelhamid, and Carolyn Casey. 
+                                    Register online @ <a href="https://whoishussain.org/hope" target="_blank" rel="noopener noreferrer">whoishussain.org/hope</a>
+                                    <br/>
+                                    <TextLinkGallery text={"View flyer"} photo={{src: require('../../assets/images/misc/HopeWebinarPoster.png'), caption: "Hope in the Age of Social Inequality flyer" }}/>
+                                </p>
                             </div>
                         </div>
                     </div>

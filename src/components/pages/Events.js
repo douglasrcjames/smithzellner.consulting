@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
+import TextLinkGallery from '../misc/TextLinkGallery'
 
 export default class Events extends Component {
     constructor(props) {
@@ -27,14 +28,18 @@ export default class Events extends Component {
                 <hr/>
                 <br/>
 
-                <h4>
-                    <u>SPEAKING ENGAGEMENT</u>
+                ​<h3>
+                    <u>Hope in the Age of Social Inequality</u>
                     <br/>
-                    Friday, November 20th - Sunday, November 22nd
-                </h4>
+                    Saturday, December 12th, 2020, 11am PT / 2pm EST
+                </h3>
                 
-                <p>Bob Zellner will have a discussion around his life's work and his movie <i>Son of the South</i> at St. Francis Springs, Stoneville, North Carolina.</p> 
-                <p>For more information, please call St. Francis Springs at (336) 573-3751</p> ​
+                <p>
+                    This is a free webinar featuring speakers Sandy Hudson, Bob Zellner, Rana Abdelhamid, and Carolyn Casey. 
+                    Register online @ <a href="https://whoishussain.org/hope" target="_blank" rel="noopener noreferrer">whoishussain.org/hope</a>
+                    <br/>
+                    <TextLinkGallery text={"View flyer"} photo={{src: require('../../assets/images/misc/HopeWebinarPoster.png'), caption: "Hope in the Age of Social Inequality flyer" }}/>
+                </p>
 
 
                 <br/>
@@ -48,6 +53,19 @@ export default class Events extends Component {
 
                 <div className={this.state.pastEventsShown ? "" : "hide"}>
                     <h1>Past Events</h1>
+                    <hr/>
+                    <br/>
+
+                    <h4>
+                        <u>SPEAKING ENGAGEMENT</u>
+                        <br/>
+                        Friday, November 20th - Sunday, November 22nd
+                    </h4>
+                    
+                    <p>Bob Zellner will have a discussion around his life's work and his movie <i>Son of the South</i> at St. Francis Springs, Stoneville, North Carolina.</p> 
+                    <p>For more information, please call St. Francis Springs at (336) 573-3751</p> 
+
+                    <br/>
                     <hr/>
                     <br/>
 
