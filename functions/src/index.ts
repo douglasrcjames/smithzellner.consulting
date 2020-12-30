@@ -49,16 +49,10 @@ export const onMessageCreated = functions.firestore.document('messages/{messageI
             html: htmlEmail
         }
 
-        // Send it
-        transporter.sendMail(mailOptions, (err: any) => {
-            if(err) {
-                console.error(err);
-            } else {
-                console.log("Successfully sent mail with sendMail()!");
-            }
-        })
+        return transporter.sendMail(mailOptions);
     } catch (error) {
-        console.error(error)
+        console.error(error);
+        return;
     }
   });
 
@@ -104,14 +98,9 @@ export const onMessageCreated = functions.firestore.document('messages/{messageI
             }
 
             // Send it
-            transporter.sendMail(mailOptions, (err: any) => {
-                if(err) {
-                    console.error(err);
-                } else {
-                    console.log("Successfully sent mail with sendMail()!");
-                }
-            })
+            return transporter.sendMail(mailOptions);
         } catch (error) {
             console.error(error)
+            return; 
         }
   });
