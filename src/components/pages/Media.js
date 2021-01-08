@@ -5,7 +5,8 @@ import { Helmet } from 'react-helmet';
 export default class Media extends Component {
     render() {
         return (
-            <div className="wrapper">
+            <>
+            <div className="wrapper" style={{paddingBottom: "20px"}}>
                 <Helmet>
                     <title>Media | Smith-Zellner Consulting</title>
                 </Helmet>
@@ -56,7 +57,7 @@ export default class Media extends Component {
                                     </Row>
                                 </Col>
                             </Row>
-                            <Row>
+                            <Row center="xs">
                                 <Col xs={12} sm={6} lg={4} className="s-margin-t-b">
                                     <a href={`https://www.amazon.com/Wrong-Side-Murder-Creek-Southerner/dp/1588383946/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-shopping-cart"/>&nbsp; Buy on Amazon</button>
@@ -70,9 +71,28 @@ export default class Media extends Component {
                             </Row>
                         </Col>
                     </Row>
-                    <br/>
-                    <hr/>
-                    <br/>
+                </Grid>
+            </div>
+            <hr className="black-hr" />
+            <div>
+                <blockquote className="quote-card">
+                    <cite>
+                        <a 
+                            href="https://blairpub.wordpress.com/2010/10/06/maya-angelou-shirley-sherrod-want-to-bring-zellner%e2%80%99s-wrong-side-of-murder-creek-to-the-big-screen/" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="text-hover-green">
+                            From Maya Angelou
+                        </a>
+                    </cite>
+                    <p>
+                        In an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s Wrong Side of Murder Creek] story needs to be told; this story needs to be heard.
+                    </p>
+                </blockquote>
+            </div>
+            <hr className="black-hr" />
+            <div className="wrapper" style={{paddingTop: "0"}}> 
+                <Grid fluid>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
                             <img src={require("../../assets/images/misc/son-of-the-south-tall.jpg")} alt="presentation" className="medium responsive" />
@@ -87,6 +107,12 @@ export default class Media extends Component {
                                         <i>Son of the South</i> is an American biographical drama film, written and directed by Barry Alexander Brown and with executive producer Spike Lee. 
                                         Based on Bob Zellner's autobiography, <i>The Wrong Side of Murder Creek</i>, it stars Lucas Till, Lucy Hale, 
                                         Lex Scott Davis, Julia Ormond, Cedric the Entertainer, Sharonne Lainer, Mike C. Manning, Brian Dennehy and Chaka Forman.
+                                    </p>
+                                    <p>
+                                        The movie received two awards from A.F.I. World Peace Initiative the main division of New Generation In Action which holds Special Consultative Status to the 
+                                        United Nations through United Nations Economic and Social Council. Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement 
+                                        award for “Contribution to Film and Arts” and the film was awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the 
+                                        World Peace and Tolerance Gala on January 15th, 2021 (Martin Luther King Jr., Birthday) the ceremony is a private virtual event.
                                     </p>
                                     <label>Recent Media:</label>
                                     <ul>
@@ -128,33 +154,32 @@ export default class Media extends Component {
                                     </ul>
                                 </Col>
                             </Row>
-                            <Row middle="xs" center="xs">
-                                <Col xs={12} sm={3} className="s-margin-t-b">
-                                    <Row end="sm" center="xs">
-                                        <Col>
-                                            <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer">
-                                                <img src={require("../../assets/images/misc/abff.jpg")} alt="American Black Film Festival" className="small responsive" />
-                                            </a>
-                                        </Col>
-                                    </Row>
+                            <Row middle="xs" center="xs" className="s-margin-t-b">
+                                <Col xs={12} sm={6}>
+                                    <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer">
+                                        <img src={require("../../assets/images/misc/abff.jpg")} alt="American Black Film Festival" className="small responsive" />
+                                    </a>
+                                    <br/>
+                                    <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer" className="black">
+                                        <h4 className="no-margin">Premiered at the 2020 American Black Film Festival</h4>
+                                    </a>
                                 </Col>
-                                <Col xs={12} sm={6} className="s-margin">
-                                    <Row start="xs">
-                                        <Col>
-                                            <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer" className="black">
-                                                <h4 className="no-margin">Premiered at the 2020 American Black Film Festival</h4>
-                                            </a>
-                                        </Col>
-                                    </Row>
+                                <Col xs={12} sm={6}>
+                                    <a href="https://filmfreeway.com/AFIWorldPeaceInitiative" target="_blank" rel="noopener noreferrer">
+                                        <img src={require("../../assets/images/misc/ngia.png")} alt="New Generation in Action" className="medium responsive" />
+                                    </a>
+                                    <a href="https://filmfreeway.com/AFIWorldPeaceInitiative" target="_blank" rel="noopener noreferrer" className="black">
+                                        <h4 className="no-margin">A.F.I. World Peace Initiative Award recipient</h4>
+                                    </a>
                                 </Col>
                             </Row>
-                            <Row>
-                                <Col xs={12} sm={6} lg={4} className="s-margin-t-b">
+                            <Row center="xs">
+                                <Col xs={12} sm={6} className="s-margin-t-b">
                                     <a href={`https://www.imdb.com/title/tt2235372/`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
                                     </a>
                                 </Col>
-                                <Col xs={12} sm={6} lg={4} className="s-margin-t-b">
+                                <Col xs={12} sm={6} className="s-margin-t-b">
                                     <a href={`https://en.wikipedia.org/wiki/Son_of_the_South_(film)`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-book"/>&nbsp; View Wiki article </button>
                                     </a>
@@ -184,7 +209,7 @@ export default class Media extends Component {
                                     </p>
                                 </Col>
                             </Row>
-                            <Row>
+                            <Row center="xs">
                                 <Col sm={12} md={6} lg={4} className="s-margin-t-b">
                                     <a href={`https://www.imdb.com/title/tt7242544/`} rel="noopener noreferrer" target="_blank">
                                         <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
@@ -219,6 +244,7 @@ export default class Media extends Component {
                     </div>
                 </div>
             </div>
+            </>
         )
     }
 }

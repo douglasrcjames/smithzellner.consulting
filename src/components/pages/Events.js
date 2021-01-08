@@ -27,21 +27,19 @@ export default class Events extends Component {
 
                 <hr/>
                 <br/>
-
-                ​<h3>
-                    <u>Hope in the Age of Social Inequality</u>
-                    <br/>
-                    Saturday, December 12th, 2020, 11am PT / 2pm EST
-                </h3>
                 
-                <p>
-                    This is a free webinar featuring speakers Sandy Hudson, Bob Zellner, Rana Abdelhamid, and Carolyn Casey. 
-                    Register online @ <a href="https://whoishussain.org/hope" target="_blank" rel="noopener noreferrer">whoishussain.org/hope</a>
+                <h4>
+                    <u>A.F.I. World Peace Initiative Award Ceremony</u>
                     <br/>
-                    <TextLinkGallery text={"View flyer"} photo={{src: require('../../assets/images/misc/HopeWebinarPoster.png'), caption: "Hope in the Age of Social Inequality flyer" }}/>
+                    January 15th, 2021
+                </h4>
+                <p>
+                    <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
+                    division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
+                    Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
+                    awarded World Peace and Tolerance Narrative Feature Film.Both honors will be presented at the World Peace and Tolerance Gala on January 15th, 2021 (Martin Luther King Jr., Birthday) 
+                    the ceremony is a private virtual event.
                 </p>
-
-
                 <br/>
                 <hr/>
                 <br/>
@@ -53,6 +51,23 @@ export default class Events extends Component {
 
                 <div className={this.state.pastEventsShown ? "" : "hide"}>
                     <h1>Past Events</h1>
+
+                    <hr/>
+                    <br/>
+
+                    ​<h4>
+                        <u>Hope in the Age of Social Inequality</u>
+                        <br/>
+                        Saturday, December 12th, 2020, 11am PT / 2pm EST
+                    </h4>
+                    
+                    <p>
+                        This is a free webinar featuring speakers Sandy Hudson, Bob Zellner, Rana Abdelhamid, and Carolyn Casey. 
+                        Register online @ <a href="https://whoishussain.org/hope" target="_blank" rel="noopener noreferrer">whoishussain.org/hope</a>
+                        <br/>
+                        <TextLinkGallery text={"View flyer"} photo={{src: require('../../assets/images/misc/HopeWebinarPoster.png'), caption: "Hope in the Age of Social Inequality flyer" }}/>
+                    </p>
+
                     <hr/>
                     <br/>
 

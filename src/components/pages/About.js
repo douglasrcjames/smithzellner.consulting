@@ -107,11 +107,11 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2016</b>
-                                                <p>Volunteer Doug Jones Campaign, AL</p>
+                                                <p>Volunteer Doug Jones Campaign, Alabama</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2014-2015</b>
-                                                <p>March 273 miles from Belhaven, NC to Washington DC to save rural hospitals - with over 100 community members, including Republican Mayor Adam O’Neal &amp; Rev. William Barber</p>
+                                                <p>March 273 miles from Belhaven, North Carolina to Washington DC to save rural hospitals - with over 100 community members, including Republican Mayor Adam O’Neal &amp; Rev. William Barber</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2010-2015</b>
@@ -123,7 +123,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2012</b>
-                                                <p>Living Legends Awards for Service to Humanity, Emmanuel Seventh-day Adventist Church, Ashton, MD</p>
+                                                <p>Living Legends Awards for Service to Humanity, Emmanuel Seventh-day Adventist Church, Ashton, Maryland</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2009</b>
@@ -131,7 +131,7 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2003</b>
-                                                <p>Shinnecock Nation campaign activist to stop bulldozing of ancestral burial grounds, Southampton, NY</p>
+                                                <p>Shinnecock Nation campaign activist to stop bulldozing of ancestral burial grounds, Southampton, New York</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2002</b>
@@ -139,11 +139,11 @@ export default class About extends Component {
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">2001</b>
-                                                <p>Candidate, Democratic NY State Senator</p>
+                                                <p>Candidate, Democratic New York State Senator</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1980</b>
-                                                <p>GROW (Grass Roots Organizing Work) project organizer in MI, AL, LA, GA since 1968. Gulf Coast Pulp Wood Association, Woodcutters Union Campaign.</p>
+                                                <p>GROW (Grass Roots Organizing Work) project organizer in Mississippi, Alabama, Louisiana, and Georgia since 1968. Gulf Coast Pulp Wood Association, Woodcutters Union Campaign.</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1967</b>
@@ -154,10 +154,10 @@ export default class About extends Component {
                                                 <p>Counselor in Mississippi preparing students to enter integrated classrooms in the fall</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <p>Trainee, Non-Violence Workshops led by Jim Lawson, John Lewis, Diane Nash in Nashville, TN</p>
+                                                <p>Trainee, Non-Violence Workshops led by Jim Lawson, John Lewis, Diane Nash in Nashville, Tennessee</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
-                                                <p>BA, Sociology/Psychology, Huntingdon College, Montgomery, AL</p>
+                                                <p>BA, Sociology/Psychology, Huntingdon College, Montgomery, Alabama</p>
                                             </Timeline.Item>
                                         </Timeline>
                                     </Col>
@@ -200,6 +200,10 @@ export default class About extends Component {
                                                 <p>Staff Manager &amp; Medical Aide, Cerebral Palsy patient, private facility, Colorado</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
+                                                <b className="display-block">2006</b>
+                                                <p>Naropa University, Boulder studied Psychology &amp; Creative writing</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
                                                 <b className="display-block">1994-1998</b>
                                                 <p>Board Member, Thistle Community Housing, Boulder, Colorado, <a href="https://www.thistle.us" target="_blank" rel="noopener noreferrer">www.thistle.us</a></p>
                                             </Timeline.Item>
@@ -208,8 +212,16 @@ export default class About extends Component {
                                                 <p>Founder, Wee Care, Doula service, in-home maternity support for new babies &amp; mothers, Boulder, Colorado</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
+                                                <b className="display-block">1994</b>
+                                                <p>University of Colorado, Boulder studied Spanish and Creative Writing</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
                                                 <b className="display-block">1972-1989</b>
                                                 <p>Full-time Mother of five</p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">1984</b>
+                                                <p>Faulkner State College in Fairhope, Alabama, studied Anatomy and Sociology</p>
                                             </Timeline.Item>
                                             <Timeline.Item>
                                                 <b className="display-block">1974-1977</b>
@@ -218,6 +230,10 @@ export default class About extends Component {
                                             <Timeline.Item>
                                                 <b className="display-block">1971-1978</b>
                                                 <p>Founding member, The Farm, Summertown, Tennessee, <a href="https://www.thefarm.org" target="_blank" rel="noopener noreferrer">www.thefarm.org</a></p>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <b className="display-block">1967-1969</b>
+                                                <p>University of Missouri studied Liberal Arts</p>
                                             </Timeline.Item>
                                         </Timeline>
                                     </Col>

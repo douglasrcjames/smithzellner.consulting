@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { Helmet } from 'react-helmet';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 import SubscribeForm from '../misc/SubscribeForm';
-import TextLinkGallery from '../misc/TextLinkGallery';
 
 export default class Home extends Component {
     render() {
@@ -13,37 +12,32 @@ export default class Home extends Component {
                 <Helmet>
                     <title>Smith-Zellner Consulting</title>
                 </Helmet>
+                
                 <div className="hero-container-1">
                     <div className="hero-image-1">
                         <div className="hero-text-1 center-text">
                             <h1>Smith-Zellner Consulting</h1>
                             <p className="sm-margin-t-b">
                                 We are available to lead civil rights history tours, train youth
-                                leaders in non-violent action, share our accounts of key events &amp;
-                                teach people of opposing viewpoints how to work together.
+                                leaders in non-violent action, share our accounts of key events, and
+                                teach people of opposing viewpoints how to work together. 
                             </p>
-                            <Link to={`/about#Contact`} className="s-margin-t-b display-block"><button>Contact</button></Link>
+                            <Link to="/media"><button>Explore our works</button></Link>
                         </div>
                     </div>
                 </div>
-
-                <blockquote className="quote-card">
-                    <cite>
-                        <a 
-                            href="https://blairpub.wordpress.com/2010/10/06/maya-angelou-shirley-sherrod-want-to-bring-zellner%e2%80%99s-wrong-side-of-murder-creek-to-the-big-screen/" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className="text-hover-green">
-                            From Maya Angelou
-                        </a>
-                    </cite>
-                    <p>
-                        In an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s] story needs to be told; this story needs to be heard.
-                    </p>
-                </blockquote>
+                <div className={"background-green s-padding-t-b"}>
+                    <div className="l-width center-text center s-padding-t-b">
+                        <h4 className="white"><i className="fa fa-award">&nbsp;</i> A.F.I. World Peace Initiative Award Recipient</h4>
+                        <p className="white" style={{lineHeight: 1.2, marginTop: "10px"}}>
+                            <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
+                            division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
+                            Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
+                            awarded World Peace and Tolerance Narrative Feature Film.
+                        </p>
+                    </div>
+                </div>
                 <br/>
-                <hr className="black-hr"/>
-                
                 <div className="l-container sm-padding-t-b">
                     <h1>What We Offer</h1>
                     <Grid fluid>
@@ -73,16 +67,16 @@ export default class Home extends Component {
                             <h1 className="sm-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
                             <div className="event-border">
                                 <h3>
-                                    <u>Hope in the Age of Social Inequality</u>
+                                    <u>A.F.I. World Peace Initiative Award Ceremony</u>
                                     <br/>
-                                    Saturday, December 12th, 2020, 11am PT / 2pm EST
+                                    January 15th, 2021
                                 </h3>
-                                
                                 <p>
-                                    This is a free webinar featuring speakers Sandy Hudson, Bob Zellner, Rana Abdelhamid, and Carolyn Casey. 
-                                    Register online @ <a href="https://whoishussain.org/hope" target="_blank" rel="noopener noreferrer">whoishussain.org/hope</a>
-                                    <br/>
-                                    <TextLinkGallery text={"View flyer"} photo={{src: require('../../assets/images/misc/HopeWebinarPoster.png'), caption: "Hope in the Age of Social Inequality flyer" }}/>
+                                    <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
+                                    division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
+                                    Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
+                                    awarded World Peace and Tolerance Narrative Feature Film.Both honors will be presented at the World Peace and Tolerance Gala on January 15th, 2021 (Martin Luther King Jr., Birthday) 
+                                    the ceremony is a private virtual event.
                                 </p>
                             </div>
                         </div>
