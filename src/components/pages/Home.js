@@ -69,13 +69,13 @@ export default class Home extends Component {
                                 <h3>
                                     <u>A.F.I. World Peace Initiative Award Ceremony</u>
                                     <br/>
-                                    January 15th, 2021
+                                    January 18th, 2021
                                 </h3>
                                 <p>
                                     <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
                                     division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
                                     Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
-                                    awarded World Peace and Tolerance Narrative Feature Film.Both honors will be presented at the World Peace and Tolerance Gala on January 15th, 2021 (Martin Luther King Jr., Birthday) 
+                                    awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday) 
                                     the ceremony is a private virtual event.
                                 </p>
                             </div>

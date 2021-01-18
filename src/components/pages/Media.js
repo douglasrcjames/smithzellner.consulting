@@ -112,7 +112,7 @@ export default class Media extends Component {
                                         The movie received two awards from A.F.I. World Peace Initiative the main division of New Generation In Action which holds Special Consultative Status to the 
                                         United Nations through United Nations Economic and Social Council. Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement 
                                         award for “Contribution to Film and Arts” and the film was awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the 
-                                        World Peace and Tolerance Gala on January 15th, 2021 (Martin Luther King Jr., Birthday) the ceremony is a private virtual event.
+                                        World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday) the ceremony is a private virtual event.
                                     </p>
                                     <label>Recent Media:</label>
                                     <ul>
@@ -185,9 +185,23 @@ export default class Media extends Component {
                                     </a>
                                 </Col>
                             </Row>
+                            <div className="center m-width m-padding-t">
+                                <div className="video-container">
+                                    <iframe
+                                        title="Bob Zellner remembers John Lewis"
+                                        className="center-text"
+                                        src="https://www.youtube.com/embed/ND4bEnRNGa8"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen="allowfullscreen"
+                                        mozallowfullscreen="mozallowfullscreen" 
+                                        msallowfullscreen="msallowfullscreen" 
+                                        oallowfullscreen="oallowfullscreen" 
+                                        webkitallowfullscreen="webkitallowfullscreen" />
+                                </div>
+                            </div>
                         </Col>
                     </Row>
-                    <br/>
                     <hr/>
                     <br/>
                     <Row className="m-margin-t-b">
