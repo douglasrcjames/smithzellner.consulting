@@ -185,21 +185,6 @@ export default class Media extends Component {
                                     </a>
                                 </Col>
                             </Row>
-                            <div className="center m-width m-padding-t">
-                                <div className="video-container">
-                                    <iframe
-                                        title="Bob Zellner remembers John Lewis"
-                                        className="center-text"
-                                        src="https://www.youtube.com/embed/ND4bEnRNGa8"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen="allowfullscreen"
-                                        mozallowfullscreen="mozallowfullscreen" 
-                                        msallowfullscreen="msallowfullscreen" 
-                                        oallowfullscreen="oallowfullscreen" 
-                                        webkitallowfullscreen="webkitallowfullscreen" />
-                                </div>
-                            </div>
                         </Col>
                     </Row>
                     <hr/>
