@@ -185,8 +185,25 @@ export default class Media extends Component {
                                     </a>
                                 </Col>
                             </Row>
+                            <Row className="m-width center" center="xs">
+                                <h3>Son of the South Trailer</h3>
+                                <div className="video-container">
+                                    <iframe
+                                        title="Son of the South Trailer"
+                                        className="center-text"
+                                        src="https://www.youtube.com/embed/x0IjvDWw0i4"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen="allowfullscreen"
+                                        mozallowfullscreen="mozallowfullscreen" 
+                                        msallowfullscreen="msallowfullscreen" 
+                                        oallowfullscreen="oallowfullscreen" 
+                                        webkitallowfullscreen="webkitallowfullscreen" />
+                                </div>
+                            </Row>
                         </Col>
                     </Row>
+                  
                     <hr/>
                     <br/>
                     <Row className="m-margin-t-b">
