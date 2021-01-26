@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import TextLinkGallery from '../misc/TextLinkGallery'
+import { HashLink } from 'react-router-hash-link';
 
 export default class Events extends Component {
     constructor(props) {
@@ -23,7 +24,13 @@ export default class Events extends Component {
                 </Helmet>
                 <h1>Upcoming Events</h1>
 
-                <h4><u>TO BOOK AN EVENT</u> <br/> Contact Dustin L. Jones, Keppler Speaking Agency at <u>djones@kepplerspeakers.com</u> or (703) 516-4000</h4>
+                <h4>
+                    <u>TO BOOK ANY EVENT</u> 
+                    <br/> 
+                    <HashLink to="/about#Contact">
+                        Contact us directly via our online form.
+                    </HashLink>
+                </h4>
 
                 <hr/>
                 <br/>

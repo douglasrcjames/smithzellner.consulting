@@ -42,7 +42,7 @@ export const onMessageCreated = functions.firestore.document('messages/{messageI
         // Pack it
         const mailOptions = {
             from: `drcj.dev@gmail.com`,
-            to: 'bob@smithzellner.consulting, pamela@smithzellner.consulting, drcj.dev@gmail.com',
+            to: 'bob@smithzellner.consulting, pamela@smithzellner.consulting, drcj.dev@gmail.com, treneyoung@gmail.com',
             replyTo: `${newValue.email}`,
             subject: `New smithzellner.consulting contact from ${newValue.name}`,
             text: newValue.message,
@@ -90,7 +90,7 @@ export const onMessageCreated = functions.firestore.document('messages/{messageI
             // Pack it
             const mailOptions = {
                 from: `drcj.dev@gmail.com`,
-                to: 'bob@smithzellner.consulting, pamela@smithzellner.consulting, drcj.dev@gmail.com',
+                to: 'bob@smithzellner.consulting, pamela@smithzellner.consulting, drcj.dev@gmail.com, treneyoung@gmail.com',
                 replyTo: `drcj.dev@gmail.com`,
                 subject: `New smithzellner.consulting subscriber!`,
                 text: `Your website smithzellner.consulting just received a new subscriber with the email ${newValue.email}.`,
