@@ -27,14 +27,14 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <div className={"background-america-blue s-padding-t-b"}>
-                    <div className="l-width center-text center s-padding-t-b">
+                    <div className="l-width center-text center" style={{padding: "20px 0"}}>
                         <h4 className="white"><i>Son of the South</i> Official Release</h4>
                         <p className="white" style={{lineHeight: 1.2, marginTop: "10px"}}>
                             <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, will be officially 
                             released in select theaters and On Demand and Digital on Friday, February 5th, 2021.
                         </p>
-                        <img src={require("../../assets/images/misc/SonofTheSouth-poster.jpg")} alt="son of the South Movie Poster" className="large responsive" />
-                        <p className="white"><Link to="/media" className="light-blue">Checkout more details on the film!</Link></p>
+                        <img src={require("../../assets/images/misc/SonofTheSouth-poster.jpg")} alt="son of the South Movie Poster" className="large responsive s-margin-t-b" />
+                        <p className="white"><Link to="/media" className="light-blue">Check out more details on the film!</Link></p>
                     </div>
                 </div>
                 <br/>

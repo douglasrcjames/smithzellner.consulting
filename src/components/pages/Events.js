@@ -80,9 +80,8 @@ export default class Events extends Component {
                         awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday) 
                         the ceremony is a private virtual event.
                     </p>
-
-                    <hr/>
                     <br/>
+                    <hr/>
 
                     ​<h4>
                         <u>Hope in the Age of Social Inequality</u>
@@ -97,6 +96,7 @@ export default class Events extends Component {
                         <TextLinkGallery text={"View flyer"} photo={{src: require('../../assets/images/misc/HopeWebinarPoster.png'), caption: "Hope in the Age of Social Inequality flyer" }}/>
                     </p>
 
+                    <br/>
                     <hr/>
                     <br/>
 
