@@ -1,6 +1,7 @@
 import React from 'react';
 import { Router } from 'react-router-dom';
 import { ToastProvider } from 'react-toast-notifications'
+import { HelmetProvider } from 'react-helmet-async';
 
 import history from './history';
 import Routes from "./routes";
@@ -22,13 +23,16 @@ import 'react-image-lightbox/style.css';
 
 function App() {
   return (
-    <ToastProvider placement="top-center" autoDismiss={true}>
-      <Router history={history}>
-        <Header />
-        <Routes />
-        <Footer />
-      </Router>
-    </ToastProvider>
+      <HelmetProvider>
+        <ToastProvider placement="top-center" autoDismiss={true}>
+            <Router history={history}>
+                <Header />
+                <Routes />
+                <Footer />
+            </Router>
+        </ToastProvider>
+      </HelmetProvider>
+    
   );
 }
 

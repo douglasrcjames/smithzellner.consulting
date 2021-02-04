@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import ContactForm from '../misc/ContactForm';
 import { Timeline } from 'rsuite';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 export default class About extends Component {
     render() {

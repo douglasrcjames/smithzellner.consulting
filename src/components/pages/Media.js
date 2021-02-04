@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 export default class Media extends Component {
     render() {
@@ -12,9 +12,164 @@ export default class Media extends Component {
                 </Helmet>
                 <h1>Smith-Zellner Media</h1>
                 <Grid fluid>
-                    <Row className="m-margin-t">
+                <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/misc/murder-creek-cover.jpg")} alt="book cover" className="medium responsive" />
+                            <img src={require("../../assets/images/misc/SonofTheSouth-poster.jpg")} alt="presentation" className="large responsive" />
+                        </Col>
+                        
+                        <Col sm={12} md={8} lg={10}>
+                            <Row start="xs" className="s-margin-l">
+                                <Col>
+                                    <h2 className="no-margin" style={{lineHeight: "0.5"}}><i>Son of the South</i></h2>
+                                    <h3 className="no-margin">A film based on <i>The Wrong Side of Murder Creek</i></h3>
+                                    <p>
+                                        <i>Son of the South</i> is an American biographical drama film, written and directed by Barry Alexander Brown and with executive producer Spike Lee. 
+                                        Based on Bob Zellner's autobiography, <i>The Wrong Side of Murder Creek</i>, it stars Lucas Till, Lucy Hale, 
+                                        Lex Scott Davis, Julia Ormond, Cedric the Entertainer, Sharonne Lainer, Mike C. Manning, Brian Dennehy and Chaka Forman.
+                                        The movie will officially be released on February 5th, 2021 on the following platforms:
+                                    </p>
+                                    <div className="center-text">
+                                        <label>Cable/Sat/Telco:</label> <div>Comcast, Directv, Cox, Charter / Time Warner, Dish, Verizon, Frontier, and smaller regional providers.</div>
+                                        <label>Digital:</label> <div>Apple TV, iTunes, Amazon Video, VUDU, Google Play, Microsoft Movies &amp; TV, FandangoNow, and Redbox On Demand.</div>
+                                    </div>
+                                    <br/>
+                                    <p>
+                                        The movie received two awards from A.F.I. World Peace Initiative the main division of New Generation In Action which holds Special Consultative Status to the 
+                                        United Nations through United Nations Economic and Social Council. Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement 
+                                        award for “Contribution to Film and Arts” and the film was awarded World Peace and Tolerance Narrative Feature Film. Both honors were presented at the 
+                                        World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday), a private virtual ceremony.
+                                    </p>
+                                    <br/>
+                                    <label>Recent Media:</label>
+                                    <ul>
+                                        <li>
+                                            <a href={`https://www.nytimes.com/2021/02/04/movies/son-of-the-south-review.html`} rel="noopener noreferrer" target="_blank">
+                                                <u><i>Son of the South</i> Review: Tale of an Alabama Activist by the New York Times</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`https://www.usatoday.com/story/entertainment/movies/2020/08/27/son-south-how-klansmans-grandson-chose-do-right-thing/5647267002/`} rel="noopener noreferrer" target="_blank">
+                                                <u><i>Son of the South</i> USA Today article</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`https://www.youtube.com/watch?v=sJeW9qSxPMs`} rel="noopener noreferrer" target="_blank">
+                                                <u>WKRG <i>Son of the South</i> full interview with Bob Zellner</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`https://www.youtube.com/watch?v=gjg3_SnpAAQ`} rel="noopener noreferrer" target="_blank">
+                                                <u>WKRG <i>Son of the South</i> excerpts from the interview with Bob Zellner</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`https://clearhorizonent.com/2020/06/21/son-of-the-south/`} rel="noopener noreferrer" target="_blank">
+                                                <u>Clear Horizon <i>Son of the South</i> feature details</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`http://lvbxmag.com/2018/07/26/part-ii-son-of-the-south`} rel="noopener noreferrer" target="_blank">
+                                                <u>LVBX Magazine feature: <i>Son of the South</i>: Part I</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`http://lvbxmag.com/2018/07/26/part-ii-son-of-the-south`} rel="noopener noreferrer" target="_blank">
+                                                <u>LVBX Magazine feature: <i>Son of the South</i>: Part II</u>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`https://variety.com/2019/film/news/spike-lee-son-of-the-south-1203129386`} rel="noopener noreferrer" target="_blank">
+                                                <u>Variety Magazine feature: Spike Lee Exec Producing Civil Rights Drama <i>Son of the South</i></u>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </Col>
+                            </Row>
+                            <Row center="xs">
+                                <Col xs={12} sm={3} className="s-margin-t-b">
+                                    <a href={`https://www.instagram.com/sonofthesouthfilm/`} rel="noopener noreferrer" target="_blank">
+                                        <button className="s-btn-success" type="button"><i className="fab fa-instagram"/>&nbsp; Follow on Instagram </button>
+                                    </a>
+                                </Col>
+                                <Col xs={12} sm={3} className="s-margin-t-b">
+                                    <a href={`https://twitter.com/sonofthesouthhd`} rel="noopener noreferrer" target="_blank">
+                                        <button className="s-btn-success" type="button"><i className="fab fa-twitter"/>&nbsp; Follow on Twitter </button>
+                                    </a>
+                                </Col>
+                                <Col xs={12} sm={3} className="s-margin-t-b">
+                                    <a href={`https://www.imdb.com/title/tt2235372/`} rel="noopener noreferrer" target="_blank">
+                                        <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
+                                    </a>
+                                </Col>
+                                <Col xs={12} sm={3} className="s-margin-t-b">
+                                    <a href={`https://en.wikipedia.org/wiki/Son_of_the_South_(film)`} rel="noopener noreferrer" target="_blank">
+                                        <button className="s-btn-success" type="button"><i className="fas fa-book"/>&nbsp; View Wiki article </button>
+                                    </a>
+                                </Col>
+                            </Row>
+                            <Row middle="xs" center="xs" className="s-margin-t-b">
+                                <Col xs={12} sm={6}>
+                                    <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer">
+                                        <img src={require("../../assets/images/misc/abff.jpg")} alt="American Black Film Festival" className="small responsive" />
+                                    </a>
+                                    <br/>
+                                    <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer" className="black">
+                                        <h4 className="no-margin">Premiered at the 2020 American Black Film Festival</h4>
+                                    </a>
+                                </Col>
+                                <Col xs={12} sm={6}>
+                                    <a href="https://filmfreeway.com/AFIWorldPeaceInitiative" target="_blank" rel="noopener noreferrer">
+                                        <img src={require("../../assets/images/misc/ngia.png")} alt="New Generation in Action" className="medium responsive" />
+                                    </a>
+                                    <a href="https://filmfreeway.com/AFIWorldPeaceInitiative" target="_blank" rel="noopener noreferrer" className="black">
+                                        <h4 className="no-margin">A.F.I. World Peace Initiative Award recipient</h4>
+                                    </a>
+                                </Col>
+                            </Row>
+                            <Row className="m-width center" center="xs">
+                                <h3>Son of the South Trailer</h3>
+                                <div className="video-container">
+                                    <iframe
+                                        title="Son of the South Trailer"
+                                        className="center-text"
+                                        src="https://www.youtube.com/embed/x0IjvDWw0i4"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen="allowfullscreen"
+                                        mozallowfullscreen="mozallowfullscreen" 
+                                        msallowfullscreen="msallowfullscreen" 
+                                        oallowfullscreen="oallowfullscreen" 
+                                        webkitallowfullscreen="webkitallowfullscreen" />
+                                </div>
+                            </Row>
+                        </Col>
+                    </Row>
+                    
+                </Grid>
+            </div>
+            <hr className="black-hr" />
+            <div>
+                <blockquote className="quote-card">
+                    <cite>
+                        <a 
+                            href="https://blairpub.wordpress.com/2010/10/06/maya-angelou-shirley-sherrod-want-to-bring-zellner%e2%80%99s-wrong-side-of-murder-creek-to-the-big-screen/" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="text-hover-green">
+                            From Maya Angelou
+                        </a>
+                    </cite>
+                    <p>
+                        In an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s Wrong Side of Murder Creek] story needs to be told; this story needs to be heard.
+                    </p>
+                </blockquote>
+            </div>
+            <hr className="black-hr" />
+            <div className="wrapper" style={{paddingTop: "0"}}> 
+                <Grid fluid>
+                <Row className="m-margin-t">
+                        <Col sm={12} md={4} lg={2}>
+                            <img src={require("../../assets/images/misc/murder-creek-cover.jpg")} alt="book cover" className="large responsive" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >
@@ -71,144 +226,12 @@ export default class Media extends Component {
                             </Row>
                         </Col>
                     </Row>
-                </Grid>
-            </div>
-            <hr className="black-hr" />
-            <div>
-                <blockquote className="quote-card">
-                    <cite>
-                        <a 
-                            href="https://blairpub.wordpress.com/2010/10/06/maya-angelou-shirley-sherrod-want-to-bring-zellner%e2%80%99s-wrong-side-of-murder-creek-to-the-big-screen/" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className="text-hover-green">
-                            From Maya Angelou
-                        </a>
-                    </cite>
-                    <p>
-                        In an era of such strong polarization, where hate is again being accepted as a tolerable response to our fellow human beings, [Bob Zellner’s Wrong Side of Murder Creek] story needs to be told; this story needs to be heard.
-                    </p>
-                </blockquote>
-            </div>
-            <hr className="black-hr" />
-            <div className="wrapper" style={{paddingTop: "0"}}> 
-                <Grid fluid>
-                    <Row className="m-margin-t-b">
-                        <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/misc/son-of-the-south-tall.jpg")} alt="presentation" className="medium responsive" />
-                        </Col>
-                        
-                        <Col sm={12} md={8} lg={10}>
-                            <Row start="xs" className="s-margin-l">
-                                <Col>
-                                    <h2 className="no-margin" style={{lineHeight: "0.5"}}><i>Son of the South</i></h2>
-                                    <h3 className="no-margin">A film based on <i>The Wrong Side of Murder Creek</i></h3>
-                                    <p>
-                                        <i>Son of the South</i> is an American biographical drama film, written and directed by Barry Alexander Brown and with executive producer Spike Lee. 
-                                        Based on Bob Zellner's autobiography, <i>The Wrong Side of Murder Creek</i>, it stars Lucas Till, Lucy Hale, 
-                                        Lex Scott Davis, Julia Ormond, Cedric the Entertainer, Sharonne Lainer, Mike C. Manning, Brian Dennehy and Chaka Forman.
-                                    </p>
-                                    <p>
-                                        The movie received two awards from A.F.I. World Peace Initiative the main division of New Generation In Action which holds Special Consultative Status to the 
-                                        United Nations through United Nations Economic and Social Council. Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement 
-                                        award for “Contribution to Film and Arts” and the film was awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the 
-                                        World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday) the ceremony is a private virtual event.
-                                    </p>
-                                    <label>Recent Media:</label>
-                                    <ul>
-                                        <li>
-                                            <a href={`https://www.usatoday.com/story/entertainment/movies/2020/08/27/son-south-how-klansmans-grandson-chose-do-right-thing/5647267002/`} rel="noopener noreferrer" target="_blank">
-                                                <u><i>Son of the South</i> USA Today article</u>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href={`https://www.youtube.com/watch?v=sJeW9qSxPMs`} rel="noopener noreferrer" target="_blank">
-                                                <u>WKRG <i>Son of the South</i> full interview with Bob Zellner</u>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href={`https://www.youtube.com/watch?v=gjg3_SnpAAQ`} rel="noopener noreferrer" target="_blank">
-                                                <u>WKRG <i>Son of the South</i> excerpts from the interview with Bob Zellner</u>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href={`https://clearhorizonent.com/2020/06/21/son-of-the-south/`} rel="noopener noreferrer" target="_blank">
-                                                <u>Clear Horizon <i>Son of the South</i> feature details</u>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href={`http://lvbxmag.com/2018/07/26/part-ii-son-of-the-south`} rel="noopener noreferrer" target="_blank">
-                                                <u>LVBX Magazine feature: <i>Son of the South</i>: Part I</u>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href={`http://lvbxmag.com/2018/07/26/part-ii-son-of-the-south`} rel="noopener noreferrer" target="_blank">
-                                                <u>LVBX Magazine feature: <i>Son of the South</i>: Part II</u>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href={`https://variety.com/2019/film/news/spike-lee-son-of-the-south-1203129386`} rel="noopener noreferrer" target="_blank">
-                                                <u>Variety Magazine feature: Spike Lee Exec Producing Civil Rights Drama <i>Son of the South</i></u>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </Col>
-                            </Row>
-                            <Row middle="xs" center="xs" className="s-margin-t-b">
-                                <Col xs={12} sm={6}>
-                                    <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../assets/images/misc/abff.jpg")} alt="American Black Film Festival" className="small responsive" />
-                                    </a>
-                                    <br/>
-                                    <a href="https://www.abff.com/" target="_blank" rel="noopener noreferrer" className="black">
-                                        <h4 className="no-margin">Premiered at the 2020 American Black Film Festival</h4>
-                                    </a>
-                                </Col>
-                                <Col xs={12} sm={6}>
-                                    <a href="https://filmfreeway.com/AFIWorldPeaceInitiative" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../assets/images/misc/ngia.png")} alt="New Generation in Action" className="medium responsive" />
-                                    </a>
-                                    <a href="https://filmfreeway.com/AFIWorldPeaceInitiative" target="_blank" rel="noopener noreferrer" className="black">
-                                        <h4 className="no-margin">A.F.I. World Peace Initiative Award recipient</h4>
-                                    </a>
-                                </Col>
-                            </Row>
-                            <Row center="xs">
-                                <Col xs={12} sm={6} className="s-margin-t-b">
-                                    <a href={`https://www.imdb.com/title/tt2235372/`} rel="noopener noreferrer" target="_blank">
-                                        <button className="s-btn-success" type="button"><i className="fas fa-film"/>&nbsp; View IMDb </button>
-                                    </a>
-                                </Col>
-                                <Col xs={12} sm={6} className="s-margin-t-b">
-                                    <a href={`https://en.wikipedia.org/wiki/Son_of_the_South_(film)`} rel="noopener noreferrer" target="_blank">
-                                        <button className="s-btn-success" type="button"><i className="fas fa-book"/>&nbsp; View Wiki article </button>
-                                    </a>
-                                </Col>
-                            </Row>
-                            <Row className="m-width center" center="xs">
-                                <h3>Son of the South Trailer</h3>
-                                <div className="video-container">
-                                    <iframe
-                                        title="Son of the South Trailer"
-                                        className="center-text"
-                                        src="https://www.youtube.com/embed/x0IjvDWw0i4"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen="allowfullscreen"
-                                        mozallowfullscreen="mozallowfullscreen" 
-                                        msallowfullscreen="msallowfullscreen" 
-                                        oallowfullscreen="oallowfullscreen" 
-                                        webkitallowfullscreen="webkitallowfullscreen" />
-                                </div>
-                            </Row>
-                        </Col>
-                    </Row>
                   
                     <hr/>
                     <br/>
                     <Row className="m-margin-t-b">
                         <Col sm={12} md={4} lg={2}>
-                            <img src={require("../../assets/images/misc/letthepeopledecide.jpg")} alt="presentation" className="medium responsive" />
+                            <img src={require("../../assets/images/misc/letthepeopledecide.jpg")} alt="presentation" className="large responsive" />
                         </Col>
                         
                         <Col sm={12} md={8} lg={10} >

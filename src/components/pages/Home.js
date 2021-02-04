@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 import SubscribeForm from '../misc/SubscribeForm';
@@ -26,15 +26,15 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <div className={"background-green s-padding-t-b"}>
+                <div className={"background-america-blue s-padding-t-b"}>
                     <div className="l-width center-text center s-padding-t-b">
-                        <h4 className="white"><i className="fa fa-award">&nbsp;</i> A.F.I. World Peace Initiative Award Recipient</h4>
+                        <h4 className="white"><i>Son of the South</i> Official Release</h4>
                         <p className="white" style={{lineHeight: 1.2, marginTop: "10px"}}>
-                            <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
-                            division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
-                            Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
-                            awarded World Peace and Tolerance Narrative Feature Film.
+                            <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, will be officially 
+                            released in select theaters and On Demand and Digital on Friday, February 5th, 2021.
                         </p>
+                        <img src={require("../../assets/images/misc/SonofTheSouth-poster.jpg")} alt="son of the South Movie Poster" className="large responsive" />
+                        <p className="white"><Link to="/media" className="light-blue">Checkout more details on the film!</Link></p>
                     </div>
                 </div>
                 <br/>
@@ -67,17 +67,24 @@ export default class Home extends Component {
                             <h1 className="sm-margin-b"><i className="fas fa-calendar-alt"/>&nbsp; Upcoming Events</h1>
                             <div className="event-border">
                                 <h3>
-                                    <u>A.F.I. World Peace Initiative Award Ceremony</u>
+                                    <u><i>Son of the South</i> Official Release</u>
                                     <br/>
-                                    January 18th, 2021
+                                    February 5th, 2021
                                 </h3>
                                 <p>
-                                    <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
-                                    division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
-                                    Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
-                                    awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday) 
-                                    the ceremony is a private virtual event.
+                                    <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, will be officially 
+                                    released in select theaters and on demand/digital on Friday, February 5th, 2021. 
                                 </p>
+              
+                                <label>Cable/Sat/Telco:</label> <span>Comcast, Directv, Cox, Charter / Time Warner, Dish, Verizon, Frontier, and smaller regional providers.</span>
+                                <br/>
+                                <label>Digital:</label> <span>Apple TV, iTunes, Amazon Video, VUDU, Google Play, Microsoft Movies &amp; TV, FandangoNow, and Redbox On Demand.</span>
+                                <br/>
+                                <b>Instagram:</b> <a href="https://www.instagram.com/sonofthesouthfilm/" target="_blank" rel="noopener noreferrer">@SonOfTheSouthFilm</a>
+                                &nbsp;&nbsp;||&nbsp;&nbsp;
+                                <b>Twitter:</b> <a href="https://twitter.com/sonofthesouthhd" target="_blank" rel="noopener noreferrer">@SonOfTheSouthHD</a>
+                                <br/>
+                                <a className="l-text" href={`https://www.youtube.com/watch?v=x0IjvDWw0i4&feature=youtu.be`} target="_blank" rel="noopener noreferrer">Son of the South | Official Trailer</a>
                             </div>
                         </div>
                     </div>

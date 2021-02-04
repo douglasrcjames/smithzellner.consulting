@@ -6,7 +6,12 @@
 /* Browser has default 8px around body */
 body {
     margin: 0;
+    position: relative
 }
+
+html, body {
+    overflow-x: hidden;
+  }
 
 /* 
 * Responsive Containers

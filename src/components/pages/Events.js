@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 import TextLinkGallery from '../misc/TextLinkGallery'
 import { HashLink } from 'react-router-hash-link';
 
@@ -34,19 +34,27 @@ export default class Events extends Component {
 
                 <hr/>
                 <br/>
-                
-                <h4>
-                    <u>A.F.I. World Peace Initiative Award Ceremony</u>
+
+                <h3>
+                    <u><i>Son of the South</i> Official Release</u>
                     <br/>
-                    January 18th, 2021
-                </h4>
+                    February 5th, 2021
+                </h3>
                 <p>
-                    <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
-                    division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
-                    Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
-                    awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday) 
-                    the ceremony is a private virtual event.
+                    <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, will be officially 
+                    released in select theaters and on demand/digital on Friday, February 5th, 2021. 
                 </p>
+
+                <label>Cable/Sat/Telco:</label> <span>Comcast, Directv, Cox, Charter / Time Warner, Dish, Verizon, Frontier, and smaller regional providers.</span>
+                <br/>
+                <label>Digital:</label> <span>Apple TV, iTunes, Amazon Video, VUDU, Google Play, Microsoft Movies &amp; TV, FandangoNow, and Redbox On Demand.</span>
+                <br/>
+                <b>Instagram:</b> <a href="https://www.instagram.com/sonofthesouthfilm/" target="_blank" rel="noopener noreferrer">@SonOfTheSouthFilm</a>
+                &nbsp;&nbsp;||&nbsp;&nbsp;
+                <b>Twitter:</b> <a href="https://twitter.com/sonofthesouthhd" target="_blank" rel="noopener noreferrer">@SonOfTheSouthHD</a>
+                <br/>
+                <a className="l-text" href={`https://www.youtube.com/watch?v=x0IjvDWw0i4&feature=youtu.be`} target="_blank" rel="noopener noreferrer">Son of the South | Official Trailer</a>
+                
                 <br/>
                 <hr/>
                 <br/>
@@ -58,6 +66,20 @@ export default class Events extends Component {
 
                 <div className={this.state.pastEventsShown ? "" : "hide"}>
                     <h1>Past Events</h1>
+                    <hr/>
+                    <br/>
+                    <h4>
+                        <u>A.F.I. World Peace Initiative Award Ceremony</u>
+                        <br/>
+                        January 18th, 2021
+                    </h4>
+                    <p>
+                        <i>Son of the South</i>, the movie adaptation of Bob Zellner's book, <i>The Wrong Side of Murder Creek</i>, recently received two awards from A.F.I. World Peace Initiative the main 
+                        division of New Generation In Action which holds Special Consultative Status to the United Nations through United Nations Economic and Social Council. 
+                        Barry Alexander Brown the director of “Son of the South” was awarded a Lifetime Achievement award for “Contribution to Film and Arts” and the film was 
+                        awarded World Peace and Tolerance Narrative Feature Film. Both honors will be presented at the World Peace and Tolerance Gala on January 18th, 2021 (Martin Luther King Jr., Birthday) 
+                        the ceremony is a private virtual event.
+                    </p>
 
                     <hr/>
                     <br/>
