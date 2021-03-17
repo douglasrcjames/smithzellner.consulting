@@ -43,11 +43,6 @@ export default class Media extends Component {
                                     <label>Recent Media:</label>
                                     <ul>
                                         <li>
-                                            <a href={`https://www.nytimes.com/2021/02/04/movies/son-of-the-south-review.html`} rel="noopener noreferrer" target="_blank">
-                                                <u><i>Son of the South</i> Review: Tale of an Alabama Activist by the New York Times</u>
-                                            </a>
-                                        </li>
-                                        <li>
                                             <a href={`https://www.usatoday.com/story/entertainment/movies/2020/08/27/son-south-how-klansmans-grandson-chose-do-right-thing/5647267002/`} rel="noopener noreferrer" target="_blank">
                                                 <u><i>Son of the South</i> USA Today article</u>
                                             </a>
